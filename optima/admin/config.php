@@ -25,7 +25,7 @@ define('DIR_CATALOG', '/var/www/optimus/data/www/filter.optima-design.pro/catalo
 define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
 define('DB_USERNAME', 'optima_test');
-define('DB_PASSWORD', 'I4b0J0k2');
+define('DB_PASSWORD', 'I4b0J0k555');
 define('DB_DATABASE', 'filter_test');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'oc_');
