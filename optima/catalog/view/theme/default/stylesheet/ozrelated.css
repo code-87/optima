@@ -1,0 +1,45 @@
+.box .oz_item {
+float: left;
+width: 100%;
+padding-top: 3px;
+}
+.box .oz_item .self {
+background-color: yellow;       /* цвет подложки текущего элемента*/
+}
+.box .oz_item .self:hover {
+background-color: red;          /* цвет подложки при наведении курсора*/
+}
+.box .oz_item .noself {
+background-color: greenyellow;  /* цвет подложки остальных элементов*/
+}
+.box .oz_item .noself:hover {
+background-color: red;          /* цвет подложки при наведении курсора*/
+}
+.box .oz_item .image {
+	margin-right: 10px;
+  float: left;
+}
+.box .oz_item .image img {
+	padding: 3px;
+	border: 1px solid #E7E7E7;
+}
+.box .oz_item .name {
+	margin-bottom: 3px;
+}
+.box .oz_item .name a {
+	color: #38B0E3;               /* цвет НАЗВАНИЯ */
+	font-weight: bold;
+	text-decoration: none;
+}
+.box .oz_item .name .model_text {
+	color: black;                 /* цвет слова МОДЕЛЬ */
+}
+.box .oz_item .name .model_value {
+	color: blue;                  /* цвет МОДЕЛИ */
+}
+.box .oz_item .name .price_text  {
+	color: black;                 /* цвет слова ЦЕНА */
+}
+.box .oz_item .name .price_value  {
+	color: blue;                  /* цвет ЦЕНЫ  */
+}

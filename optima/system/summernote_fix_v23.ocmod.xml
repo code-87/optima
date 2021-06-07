@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+    <name>Summernote code fix</name>
+    <code>summernote_fix</code>
+    <version>2.3</version>
+    <author>spectre</author>
+    <link>https://freelancer.od.ua/</link>
+  	<file path="admin/view/template/extension/*/*.tpl">
+        <operation error="skip">
+            <search><![CDATA[<?php echo $footer; ?>]]></search>
+            <add position="before"><![CDATA[
+				<script>
+					$(document).on("submit","form",function(e){
+						summernotes = $('.summernote');
+						$.each(summernotes, function(){
+							if ($(this).summernote('codeview.isActivated')) {
+								$(this).summernote('codeview.deactivate'); 
+							}
+						})
+					})
+				</script>]]></add>
+        </operation>
+    </file> 
+ 	<file path="admin/view/template/catalog/*.tpl">
+        <operation error="skip">
+            <search><![CDATA[<?php echo $footer; ?>]]></search>
+            <add position="before"><![CDATA[
+				<script>
+					$(document).on("submit","form",function(e){
+						summernotes = $('.summernote');
+						$.each(summernotes, function(){
+							if ($(this).summernote('codeview.isActivated')) {
+								$(this).summernote('codeview.deactivate'); 
+							}
+						})
+					})
+				</script>]]></add>
+        </operation>
+    </file>
+</modification>

@@ -1,0 +1,136 @@
+<?php
+
+class ControllerExtensionModuleTyresFilter extends Controller {
+protected $registry;
+protected $data = array();
+	
+	
+public function __construct($registry) {
+    parent::__construct($registry);	
+	
+	$this->load->model('catalog/tyresfilter');
+	
+}	
+	
+	
+	
+public function index($settings = array()) {	
+$data['auto_brands'] = array();
+$auto_brands = $this->model_catalog_ocfilter->getAutoBrand ();
+foreach ($auto_brands as $auto_brand) {
+$name = $auto_brand['vendor'];
+$data['auto_brands'][] = $name;
+}
+
+//SIZE TYRES
+$data['tyre_widths']  = array();
+$data['tyre_heights']  = array();
+$data['tyre_diametrs']  = array();
+$data['tyre_seasons']  = array();
+
+//SIZE DISK
+$data['disk_diametrs']  = array();
+$data['$disc_widths']  = array();
+$data['$disc_dias']  = array();
+$data['$disc_ets']  = array();
+$data['$disc_pcds']  = array();
+$auto_sizes = $this->model_catalog_tyresfilter->getAutoSize();
+foreach ($auto_sizes as $auto_size) {
+	 $id = $auto_size['attribute_id'];
+if ($id == 20){
+	$data['tyre_widths'][] = $auto_size['text'];
+}else if ($id == 21){
+	$data['tyre_heights'][] = $auto_size['text'];
+}else if ($id == 19){
+	$data['tyre_diametrs'][] = $auto_size['text'];
+}else if ($id == 25){
+	$data['tyre_seasons'][] = $auto_size['text'];
+}else if ($id == 12){
+	$data['disk_diametrs'][] = $auto_size['text'];
+}else if ($id == 18){
+	$data['disc_dias'][] = $auto_size['text'];
+}else if ($id == 14){
+	$data['disc_widths'][] = $auto_size['text'];
+}else if ($id == 16){
+	$data['disc_ets'][] = $auto_size['text'];
+}else if ($id == 15){
+	$data['disc_pcds'][] = $auto_size['text'];
+}
+}
+
+
+$data['tyre_brands']  = array();
+$tyre_brands = $this->model_catalog_tyresfilter->getTyresBrand();
+foreach ($tyre_brands as $tyre_brand) {
+$data['tyre_brands'][].='<option value="'.$tyre_brand['manufacturer_id'].'">'.$tyre_brand['name'].'</option>';
+}
+return $this->load->view('extension/module/tyresfilter', $data);
+}
+
+	//MODEL
+public function getModel(){
+$models= array();
+ if (isset($this->request->get['brand'])) {
+$brand = $this->request->get['brand'];
+$auto_models = $this->model_catalog_ocfilter->getAutoModel ($brand);
+foreach ($auto_models as $auto_model) {
+$name = $auto_model['model_seria'];
+$models[] = $name;
+}
+}
+echo json_encode($models);
+}
+
+
+//Year
+public function getYear(){
+$years= array();
+ if (isset($this->request->get['brand']) && isset($this->request->get['model'])) {
+$brand = $this->request->get['brand'];
+$model = $this->request->get['model'];
+$auto_years = $this->model_catalog_ocfilter->getAutoYear ($brand, $model);
+foreach ($auto_years as $auto_year) {
+$name = $auto_year['year'];
+$years[] = $name;
+}
+}
+echo json_encode($years);
+}
+
+//Modification
+public function getMod(){
+$mods= array();
+ if (isset($this->request->get['brand']) && isset($this->request->get['model']) && isset($this->request->get['year'])) {
+$brand = $this->request->get['brand'];
+$model = $this->request->get['model'];
+$year = $this->request->get['year'];
+$auto_mods = $this->model_catalog_ocfilter->getAutoMod ($brand, $model, $year);
+foreach ($auto_mods as $auto_mod) {
+$name = $auto_mod['modification'];
+$mods[] = $name;
+}
+}
+echo json_encode($mods);
+}
+
+
+public function getFiltered(){
+$filtered["tyre"]= array();
+$filtered["disk"]= array();
+ if (isset($this->request->get['brand']) && isset($this->request->get['model']) && isset($this->request->get['year']) && isset($this->request->get['mod'])) {
+$brand = $this->request->get['brand'];
+$model = $this->request->get['model'];
+$year = $this->request->get['year'];
+$mod = $this->request->get['mod'];
+$auto_filtered = $this->model_catalog_ocfilter->getAutoMod ($brand, $model, $year, $mod);
+foreach ($auto_filtered as $auto_filter) {
+$tyre = $auto_filter['tyres_factory'];
+$filtered["tyre"] = $tyre;
+$disk = $auto_filter['wheels_factory'];
+$filtered["disk"] = $disk;
+}
+}
+echo json_encode($filtered);
+}
+	}
+?>

@@ -1,0 +1,2 @@
+<a class="call-cart nav-mob-none"><img class="nav-mob-none" src="img/cart.svg" alt=""><span class="items"><?php echo $text_items; ?></span></a>
+<a class="nav-mobile__cart call-cart"><img class="nav-mobile__cart" src="img/white-cart.svg" alt=""><span class="items"><?php echo $text_items; ?></span></a>

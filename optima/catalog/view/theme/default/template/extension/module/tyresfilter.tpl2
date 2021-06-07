@@ -1,0 +1,632 @@
+<div class="main__filter filter">
+<div class="filter__tabs tabs"><a class="active" data-tab=".item-tiers">Шины</a> <a data-tab=".item-disk">Диски</a> <a data-tab=".item-battery">Аккумуляторы</a></div>
+<div class="filter__item item item-tiers">
+<div class="filter__type tabs"><a class="active" data-tab=".item-size">Подбор по размеру</a> <a data-tab=".item-auto">Подбор по авто</a></div>
+
+<div class="filter__fields item item-size">
+<div class="filter__select select">
+<img alt="" src="img/filter-arrow.svg" />
+<select class="widthTyre">
+<option value="0">ширина</option>
+<?php foreach ($tyre_widths as $tyre_width) { ?>
+<option><?php echo $tyre_width; ?></option>
+<?php } ?>
+</select></div>
+<div class="filter__select select"><img alt="" src="img/filter-arrow.svg" />
+<select class="heightTyre">
+<option value="0">высота</option>
+<?php foreach ($tyre_heights as $tyre_height) { ?>
+<option><?php echo $tyre_height; ?></option>
+<?php } ?>
+</select>
+</div>
+<div class="filter__select select"><img alt="" src="img/filter-arrow.svg" />
+<select class="diametrTyre"><option value="0">диаметр</option>
+<?php foreach ($tyre_diametrs as $tyre_diametr) { ?>
+<option><?php echo $tyre_diametr; ?></option>
+<?php } ?>
+</select>
+</div>
+<div class="filter__select select"><img alt="" src="img/filter-arrow.svg" />
+<select class="season"><option value="0">сезон</option>
+<?php foreach ($tyre_seasons as $tyre_season) { ?>
+<option><?php echo $tyre_season; ?></option>
+<?php } ?>
+</select>
+</div>
+<div class="filter__select select"><img alt="" src="img/filter-arrow.svg" />
+<select class="brandTyre"><option value="0">бренд</option>
+<?php var_dump($tyre_brands);
+
+foreach ($tyre_brands as $tyre_brand) { ?>
+<?php echo $tyre_brand; ?>
+<?php } ?>
+</select>
+</div>
+<div class="filter__select select"><img alt="" src="img/filter-arrow.svg" />
+<select class="type"><option value="0">легковая</option>
+<?php echo $type; ?>
+</select>
+</div>
+</div>
+
+<!-- По авто -->
+<div class="filter__fields item inactive item-auto">
+<div class="filter__select select brandAuto"><img alt="" src="img/filter-arrow.svg" />
+<select class="brandTyreAuto">
+<option value="0">производитель</option>
+<?php foreach ($auto_brands as $auto_brand) { ?>
+<option><?php echo $auto_brand; ?></option>
+<?php } ?>
+</select>
+</div>
+
+<div class="filter__select select modelBrand"><img alt="" src="img/filter-arrow.svg" />
+<select class="model modelTyre"><option value="0">модель</option><option>Aveo</option>
+</select>
+</div>
+<div class="filter__select select yearBrand"><img alt="" src="img/filter-arrow.svg" />
+<select class="year  yearTyre"><option value="0">год</option><option>2006</option>
+</select>
+</div>
+<div class="filter__select select modBrand"><img alt="" src="img/filter-arrow.svg" />
+<select class="mod modTyre"><option value="0">модификация</option><option>1.2i</option>
+</select>
+</div>
+<div class="filter__select select seasonBrand"><img alt="" src="img/filter-arrow.svg" /><select class="seasonTyre">
+<option value="0">сезон</option>
+<?php foreach ($tyre_seasons as $tyre_season) { ?>
+<option><?php echo $tyre_season; ?></option>
+<?php } ?>
+</select>
+</select>
+</div>
+</div>
+
+
+<script>
+$(function(){
+var filterByBtn = $(this).find(".filterByBtn");
+filterByBtn.on('click', function(e){
+ e.preventDefault();
+var parent = document.querySelector('.filter__tabs');
+var child = parent.querySelector('.active');
+var select_tabs = child.dataset.tab;
+if (select_tabs ==".item-tiers"){
+	var filterTabs = document.querySelector('.item-tiers'),
+	filterTabs = filterTabs.querySelector(".filter__type");
+     var child = filterTabs.querySelector('.active');
+   var filter__tabs = child.dataset.tab;
+    var select_types = filter__tabs.substr(1);
+	console.log(select_tabs);
+	console.log(select_types);
+	if (select_types == 'item-size'){
+		sendTyreSize();
+} else {
+	filterTyreByAuto();
+
+
+
+}
+}else if(select_tabs ==".item-disk") {
+	var filterTabs = document.querySelector('.item-disk'),
+	filterTabs = filterTabs.querySelector(".filter__type");
+    var child = filterTabs.querySelector('.active');
+   var filter__tabs = child.dataset.tab;
+   var select_types = filter__tabs.substr(1);
+	console.log(select_tabs);
+	console.log(select_types);
+	if (select_types == 'item-size'){
+		sendDiskSize();
+} else {
+	filterDiskByAuto();
+}
+}else{
+	console.log(select_tabs);
+
+}
+});
+});
+</script>
+<script>
+
+</script>
+<script>
+$(function(){
+var currentLocation = window.location.pathname,
+pathToFilter;
+
+let brandList = $(this).find(".brandAuto"),
+modelList =  $(this).find(".modelBrand"),
+yearList =  $(this).find(".yearBrand"),
+modList =  $(this).find(".modBrand"),
+seasonList =  $(this).find(".seasonBrand"),
+filterByAuto = $(this).find(".filterByAuto"),
+divs;
+brandList.on('click', function(e){
+ e.preventDefault();
+let brand=brandList.children(' .select__items').children(' .same-as-selected').text();
+// model
+$.ajax({
+url: 'index.php?route=extension/module/tyresfilter/getModel',
+             type: 'get',
+             data: {'brand': brand},
+            success: function(data) {
+			let model = JSON.parse(data),
+			selectList = document.getElementsByClassName("model");
+			selectList[0].innerHTML = '';
+			selectList[0].parentNode.getElementsByTagName('div')[0].innerHTML = 'модель';
+			selectList[0].parentNode.getElementsByTagName('div')[1].innerHTML = '';
+			// $(".model option").remove();
+			// $(".year option").remove();
+			// $(".mod option").remove();
+                for (var i = 0; i < model.length; i++) {
+					 add_option = "<option>"+model[i]+"</option>";
+					 $(".model").append(add_option);
+					divs = modelList.children(' .select__items');
+					let add_div = "<div>"+model[i]+"</div>";
+					divs.append(add_div);
+                }
+
+
+
+
+/*Custom select*/
+var x, i, j, l, ll, selElmnt, a, b, c;
+/*look for any elements with the class "custom-select":*/
+x = document.getElementsByClassName("select");
+l = x.length;
+for (i = 0; i < l; i++) {
+    selElmnt = x[i].getElementsByTagName("select")[0];
+    ll = selElmnt.length;
+    /*for each element, create a new DIV that will act as the selected item:*/
+    //a = document.createElement("DIV");
+    //a.setAttribute("class", "select__selected");
+    //a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+    //x[i].appendChild(a);
+    var a = x[i].getElementsByTagName('div')[0];
+    /*for each element, create a new DIV that will contain the option list:*/
+    //b = document.createElement("DIV");
+    //b.setAttribute("class", "select__items select__hide");
+    var b = x[i].getElementsByTagName('div')[1];
+    for (j = 1; j < ll; j++) {
+        /*for each option in the original select element,
+        create a new DIV that will act as an option item:*/
+        //c = document.createElement("DIV");
+        //c.innerHTML = selElmnt.options[j].innerHTML;
+        var jj = Math.floor(j-0-1);
+        //console.log(jj);
+        var c = b.getElementsByTagName('div')[jj];
+        //c.innerHTML = '';
+        c.addEventListener("click", (function(e) {
+            /*when an item is clicked, update the original select box,
+            and the selected item:*/
+            var y, i, k, s, h, sl, yl;
+            s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+            sl = s.length;
+            h = this.parentNode.previousSibling;
+            for (i = 0; i < sl; i++) {
+                if (s.options[i].innerHTML == this.innerHTML) {
+                    s.selectedIndex = i;
+                    h.innerHTML = this.innerHTML;
+                    y = this.parentNode.getElementsByClassName("same-as-selected");
+                    yl = y.length;
+                    for (k = 0; k < yl; k++) {
+                        y[k].removeAttribute("class");
+                    }
+                    this.setAttribute("class", "same-as-selected");
+                    break;
+                }
+            }
+            h.click();
+        }));
+        //b.appendChild(c);
+    }
+    //x[i].appendChild(b);
+
+
+}
+
+
+
+
+
+             }
+        });
+  });
+
+  // year
+ modelList.on('click', function(e){
+ e.preventDefault();
+let model =modelList.children(' .select__items').children(' .same-as-selected').text();
+let brand=brandList.children(' .select__items').children(' .same-as-selected').text();
+$.ajax({
+url: 'index.php?route=extension/module/tyresfilter/getYear',
+             type: 'get',
+             data: {'brand': brand, 'model': model},
+            success: function(data) {
+			let year = JSON.parse(data);
+			//console.log(year);
+			selectList = document.getElementsByClassName("year");
+			selectList[0].innerHTML = '';
+			selectList[0].parentNode.getElementsByTagName('div')[0].innerHTML = 'год';
+			selectList[0].parentNode.getElementsByTagName('div')[1].innerHTML = '';
+		//	 $(".year option").remove();
+			// $(".mod option").remove();
+                for (var i = 0; i < year.length; i++) {
+					 add_option = "<option>"+year[i]+"</option>";
+                     $(".year").append(add_option);
+					 divs = yearList.children(' .select__items');
+					let add_div = "<div>"+year[i]+"</div>";
+					divs.append(add_div);
+                }
+       /*Custom select*/
+var x, i, j, l, ll, selElmnt, a, b, c;
+/*look for any elements with the class "custom-select":*/
+x = document.getElementsByClassName("select");
+l = x.length;
+for (i = 0; i < l; i++) {
+    selElmnt = x[i].getElementsByTagName("select")[0];
+    ll = selElmnt.length;
+    /*for each element, create a new DIV that will act as the selected item:*/
+    //a = document.createElement("DIV");
+    //a.setAttribute("class", "select__selected");
+    //a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+    //x[i].appendChild(a);
+    var a = x[i].getElementsByTagName('div')[0];
+    /*for each element, create a new DIV that will contain the option list:*/
+    //b = document.createElement("DIV");
+    //b.setAttribute("class", "select__items select__hide");
+    var b = x[i].getElementsByTagName('div')[1];
+    for (j = 1; j < ll; j++) {
+        /*for each option in the original select element,
+        create a new DIV that will act as an option item:*/
+        //c = document.createElement("DIV");
+        //c.innerHTML = selElmnt.options[j].innerHTML;
+        var jj = Math.floor(j-0-1);
+        //console.log(jj);
+        var c = b.getElementsByTagName('div')[jj];
+        //c.innerHTML = '';
+        c.addEventListener("click", (function(e) {
+            /*when an item is clicked, update the original select box,
+            and the selected item:*/
+            var y, i, k, s, h, sl, yl;
+            s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+            sl = s.length;
+            h = this.parentNode.previousSibling;
+            for (i = 0; i < sl; i++) {
+                if (s.options[i].innerHTML == this.innerHTML) {
+                    s.selectedIndex = i;
+                    h.innerHTML = this.innerHTML;
+                    y = this.parentNode.getElementsByClassName("same-as-selected");
+                    yl = y.length;
+                    for (k = 0; k < yl; k++) {
+                        y[k].removeAttribute("class");
+                    }
+                    this.setAttribute("class", "same-as-selected");
+                    break;
+                }
+            }
+            h.click();
+        }));
+        //b.appendChild(c);
+    }
+    //x[i].appendChild(b);
+
+
+}
+
+
+
+
+
+             }
+        });
+		
+		
+		
+		
+		
+		
+  });
+
+  // modification
+ yearList.on('click', function(e){
+ e.preventDefault();
+let model =modelList.children(' .select__items').children(' .same-as-selected').text();
+let brand=brandList.children(' .select__items').children(' .same-as-selected').text();
+let year=yearList.children(' .select__items').children(' .same-as-selected').text();
+$.ajax({
+url: 'index.php?route=extension/module/tyresfilter/getMod',
+             type: 'get',
+             data: {'brand': brand, 'model': model,'year': year},
+            success: function(data) {
+			let mod = JSON.parse(data);
+			//console.log(typeof mod);
+			selectList = document.getElementsByClassName("mod");
+		//	 $(".mod option").remove();
+                for (var i = 0; i < mod.length; i++) {
+					 add_option = "<option>"+mod[i]+"</option>";
+                     $(".mod").append(add_option);
+                }
+             }
+        });
+  });
+
+});
+
+function findWord(word, str) {
+  return RegExp('\\b'+ word +'\\b').test(str)
+}
+function urlExists(url, cb) {
+    jQuery.ajax({
+        url: url,
+        dataType: 'text',
+        type: 'GET',
+        complete: function (xhr) {
+            if (typeof cb === 'function')
+                cb.apply(this, [xhr.status]);
+        }
+    });
+}
+</script>
+
+<script>
+ function filterTyreByAuto(){
+let brand = $('.brandTyreAuto option:selected').text(),
+model = $('.modelTyre option:selected').text(),
+year = $('.yearTyre option:selected').text(),
+mod = $('.modTyre option:selected').text(),
+season = $('.seasonTyre option:selected').text();
+//localStorage['brand'] = brand;
+localStorage.setItem("brand", brand);
+localStorage.setItem("model", model);
+localStorage.setItem("year", year);
+localStorage.setItem("mod", mod);
+//localStorage['model'] = model;
+//localStorage['year'] = year;
+//localStorage['mod'] = mod;
+if (season == "всесезонная"){season ="vsesezonnaja";}else if(season == "зимняя"){season ="zimnjaja";}else{season ="letnjaja";}
+$.ajax({
+url: 'index.php?route=extension/module/ocfilter/getFiltered',
+type: 'get',
+data: {'brand': brand, 'model': model,'year': year, 'mod':mod},
+success: function(data) {
+let filtered = JSON.parse(data);
+console.log(filtered['disk']);
+filteredTyre= filtered['tyre'];
+filteredDisk = filtered['disk'];
+//shiny
+var width = filteredTyre.substring(0, 3),
+profile = filteredTyre.substring(4, 6),
+diametr = filteredTyre.substring(8,10);
+pathToFilter = 'diametr/'+diametr+'/shirina/'+width+'/profil/'+profile+'/sezon/'+season+'/';
+urlik= window.location.origin + '/shiny/'+ pathToFilter;
+urlExists(urlik, function (status) {
+if (status === 200) {
+ window.location.href = urlik;
+} else if (status === 404) {
+alert('по заданым параметрам товаров нет');
+} else {
+alert('по заданым параметрам товаров нет');
+}
+});
+}
+  });
+}
+
+
+
+ function filterDiskByAuto(){
+let brand = $('.diskBrand option:selected').text();
+let model = $('.modelDisk option:selected').text();
+let year = $('.yearDisk option:selected').text();
+let mod = $('.modDisk option:selected').text();
+localStorage['brand'] = brand;
+localStorage['model'] = model;
+localStorage['year'] = year;
+localStorage['mod'] = mod;
+$.ajax({
+url: 'index.php?route=extension/module/ocfilter/getFiltered',
+type: 'get',
+data: {'brand': brand, 'model': model,'year': year, 'mod':mod},
+success: function(data) {
+let filtered = JSON.parse(data);
+filteredDisk = filtered['disk'];
+var width = filteredDisk.indexOf('x'),
+shirina = filteredDisk.substring(0, width);
+shirina = shirina.trim();
+var shirina = shirina.replace('.', '-');
+var diametrD = filteredDisk.indexOf('ET');
+diametrD = filteredDisk.substring(width+1, diametrD);
+diametrD= diametrD.trim();
+var et = filteredDisk.lastIndexOf('ET');
+et = filteredDisk.substring(et);
+et = et.toLowerCase();
+console.log(et);
+pathToFilter = 'diametr/'+diametrD+'/shirina-diska/'+shirina+'/et-diska/'+et+'/';
+urlik= window.location.origin+ '/diski/'+ pathToFilter;
+urlExists(urlik, function (status) {
+if (status === 200) {
+location.assign(urlik);
+} else if (status === 404) {
+alert('по заданым параметрам товаров нет');
+} else {
+alert('по заданым параметрам товаров нет');
+// document.getElementsByClassName("result")[0].style.display = 'block';
+}
+});
+}
+  });
+}
+</script>
+
+
+<script>
+function sendTyreSize (){
+	let url = '';
+		let widthId = $(".widthTyre").val(),
+		width = $('.widthTyre option:selected').text(),
+		heightId = $(".heightTyre").val(),
+		height = $('.heightTyre option:selected').text(),
+		diametrId = $(".diametrTyre").val(),
+		diametr = $('.diametrTyre option:selected').text(),
+		seasonId = $(".season").val();
+		let season = $('.season option:selected').text(),
+		brandId = $(".brandTyre").val(),
+		brand = $('.brandTyre option:selected').text();
+		if (season =="летняя"){
+			season= "letnjaja";
+		}else if (season =="зимняя"){
+			season= "zimnjaja";
+		} else if(season =="всесезонная"){
+			season= "vsesezonnaja";
+		}
+        if (brandId !=0){
+			url += brandId+"/";
+		}
+		if (!!diametr && diametrId !=0){
+			url +="diametr/"+diametr + "/";
+		}
+		if (!!width && widthId !=0){
+			url +="shirina/"+width + "/";
+		}
+		if (!!height && heightId !=0){
+			url +="profil/"+height + "/";
+		}
+		if (!!season && seasonId !=0){
+			url +="sezon/"+season + "/";
+		}
+	let urlik= window.location.origin + '/shiny/'+ url;
+		urlExists(urlik, function (status) {
+if (status === 200) {
+location.assign(urlik);
+} else if (status === 404) {
+alert('по заданым параметрам товаров нет');
+} else {
+alert('по заданым параметрам товаров нет');
+// document.getElementsByClassName("result")[0].style.display = 'block';
+}
+});
+
+}
+
+function sendDiskSize() {
+		let url="" ;
+		let diametrDisk = $('.diametrDisk option:selected').text(),
+		diametrDiskValue = $(".diametrDisk").val(),
+		widthDisk = $('.widthDisk option:selected').text(),
+		widthDiskValue = $(".widthDisk").val(),
+		pcdDisk = $('.pcdDisk option:selected').text(),
+		pcdDiskValue = $(".pcdDisk").val(),
+        diaDisk = $('.diaDisk option:selected').text(),
+		diaDiskValue = $(".diaDisk").val(),
+		etDisk = $('.etDisk option:selected').text(),
+		etDiskValue = $(".etDisk").val();
+		etDisk = etDisk.toLowerCase();
+		diaDisk = diaDisk.toLowerCase();
+		if (!!diametrDisk && diametrDiskValue !=0){
+			url += "diametr/"+diametrDisk+"/";
+		}
+		if (!!widthDisk && widthDiskValue !=0){
+			url +="shirina-diska/"+widthDisk + "/";
+		}
+		if(!!pcdDisk && pcdDiskValue !=0){
+			url += "pcd-diska/"+pcdDisk + "/";
+		}
+		if (!!etDisk && etDiskValue !=0){
+			url += "et-diska/"+etDisk + "/";
+		}
+		if(!!diaDisk &&  diaDiskValue !=0){
+			url += "dia-diska/"+ diaDisk +"/";
+		}
+		let urlik= window.location.origin + '/diski/'+ url;
+				urlExists(urlik, function (status) {
+if (status === 200) {
+location.assign(urlik);
+} else if (status === 404) {
+alert('по заданым параметрам товаров нет');
+} else {
+alert('по заданым параметрам товаров нет');
+// document.getElementsByClassName("result")[0].style.display = 'block';
+}
+});
+
+}
+
+</script>
+
+
+</div>
+<!-- диски-->
+<div class="filter__item item inactive item-disk">
+<div class="filter__type tabs"><a class="active" data-tab=".item-size">Подбор по размеру</a> <a data-tab=".item-auto">Подбор по авто</a></div>
+<div class="filter__fields item item-size">
+<div class="filter__select select"><img alt="" src="img/filter-arrow.svg" /><select class="diametrDisk"><option value="0">диаметр</option>
+<?php foreach ($disk_diametrs as $disk_diametr) { ?>
+<option><?php echo $disk_diametr; ?></option>
+<?php } ?>
+</select></div>
+<div class="filter__select select"><img alt="" src="img/filter-arrow.svg" /> <select class="widthDisk"><option value="0">ширина</option>
+<?php foreach ($disc_widths as $disc_width) { ?>
+<option><?php echo $disc_width; ?></option>
+<?php } ?>
+</select></div>
+<div class="filter__select select"><img alt="" src="img/filter-arrow.svg" /> <select class="pcdDisk"><option value="0">PCD</option>
+<?php foreach ($disc_pcds as $disc_pcd) { ?>
+<option><?php echo $disc_pcd; ?></option>
+<?php } ?>
+</select></div>
+<div class="filter__select select"><img alt="" src="img/filter-arrow.svg" /> <select class="diaDisk"><option value="0">DIA</option>
+<?php foreach ($disc_dias as $disc_dia) { ?>
+<option><?php echo $disc_dia; ?></option>
+<?php } ?>
+</select></div>
+<div class="filter__select select"><img alt="" src="img/filter-arrow.svg" /> <select class="etDisk"><option value="0">ET</option>
+<?php foreach ($disc_ets as $disc_et) { ?>
+<option><?php echo $disc_et; ?></option>
+<?php } ?>
+</select></div>
+</div>
+
+<div class="filter__fields item inactive item-auto autodisk">
+<div class="filter__select select brandAuto"><img alt="" src="img/filter-arrow.svg" />
+<select class="diskBrand">
+<option value="0">производитель</option>
+<?php foreach ($auto_brands as $auto_brand) { ?>
+
+<option><?php echo $auto_brand; ?></option>
+<?php } ?>
+
+</select>
+</div>
+<div class="filter__select select modelBrand"><img alt="" src="img/filter-arrow.svg" />
+<select class="model modelDisk"><option value="0">модель</option><option>GTV</option>
+</select>
+</div>
+<div class="filter__select select yearBrand"><img alt="" src="img/filter-arrow.svg" />
+<select class="year yearDisk"><option value="0">год</option><option>1995</option>
+</select>
+</div>
+<div class="filter__select select modBrand"><img alt="" src="img/filter-arrow.svg" />
+<select class="mod modDisk"><option value="0">модификация</option><option>1.8i T.Spark</option>
+</select>
+</div>
+</div>
+</div>
+
+<!-- Аккумулятор-->
+<div class="filter__item item inactive item-battery">
+<div class="filter__type tabs"><a class="active" data-tab=".item-size">Подбор по размеру</a></div>
+<div class="filter__fields item item-size">
+<div class="filter__select select"><img alt="" src="img/filter-arrow.svg" /> <select><option value="0">емкость (Ah)</option></select></div>
+<div class="filter__select select"><img alt="" src="img/filter-arrow.svg" /> <select><option value="0">бренд</option></select></div>
+<div class="filter__select select"><img alt="" src="img/filter-arrow.svg" /> <select><option value="0">пусковой ток, А</option></select></div>
+<div class="filter__select select"><img alt="" src="img/filter-arrow.svg" /> <select><option value="0">тип АКБ</option></select></div>
+<div class="filter__select select"><img alt="" src="img/filter-arrow.svg" /> <select><option value="0">полярность</option></select></div>
+<div class="filter__select select"><img alt="" src="img/filter-arrow.svg" /> <select><option value="0">ДхШхВ, мм</option></select></div>
+</div>
+</div>
+
+<div class="filter__button"><button class="filterByBtn">Подобрать</button></div>
+</div>

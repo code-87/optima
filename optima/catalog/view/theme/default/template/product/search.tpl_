@@ -1,0 +1,58 @@
+<?php echo $header; ?>
+<div class="breadcrumbs">
+<div class="wrapper">
+<?php if ($products) { ?>
+<div class="breadcrumbs__links"><?php foreach ($breadcrumbs as $breadcrumb) { ?><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a><?php } ?></div>
+<div class="breadcrumbs__sort">
+<a class="list-view active"><img src="img/row.svg" alt=""></a>
+<a class="grid-view"><img src="img/column.svg" alt=""></a>
+</div>
+</div>
+</div>
+
+<div class="content content-search content-search-column">
+<div class="wrapper">
+<h1><?php echo $heading_title; ?></h1>
+<div class="content-catalog__container">
+<?php echo $column_left; ?>
+<div class="catalog">
+<?php foreach ($products as $product) { ?>
+<div class="catalog__item">
+<div class="catalog__title"><h4><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></h4></div>
+<a href="<?php echo $product['href']; ?>" class="catalog__photo"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" /></a>
+<div class="catalog__price">
+<?php if ($product['price']) { ?>
+<p><?php if (!$product['special']) { ?><?php echo $product['price']; ?><?php } else { ?><?php echo $product['special']; ?><?php } ?></p><?php } ?>
+<button onclick="cart.add('<?php echo $product['product_id']; ?>');">купить</button>
+</div>
+</div>
+
+
+
+<?php } ?>
+<div class="catalog__navigation"><?php echo $pagination; ?></div>
+<?php } ?>
+
+</div>
+</div>
+</div>
+</div>
+<script>
+$(document).on('click', '.catalog__count button', function () {    
+	var btn = $(this),
+		oldValue = btn.closest('.catalog__count').find('input').val().trim(),
+		newVal = 1;
+			
+	if (btn.attr('data-dir') == 'up') {
+		newVal = parseInt(oldValue) + 1;
+	} else {
+		if (oldValue > 1) {
+			newVal = parseInt(oldValue) - 1;
+		} else {
+			newVal = 1;
+		}
+	}
+	btn.closest('.catalog__count').find('input').val(newVal);
+});
+</script>
+<?php echo $footer; ?>

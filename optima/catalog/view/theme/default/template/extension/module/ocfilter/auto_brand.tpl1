@@ -1,0 +1,55 @@
+<div class="sidefilter__select brandAuto select"><img alt="" src="img/filter-arrow.svg" /> <select>
+<option value="0">производитель</option>
+<?php foreach ($auto_brands as $auto_brand) { ?>
+
+<option><?php echo $auto_brand; ?></option>
+<?php } ?>
+
+
+
+</select>
+</div>
+
+<div class="sidefilter__select select"><img alt="" src="img/filter-arrow.svg" /> <select>
+<option value="0">модель</option>
+<option value="1">Antares</option>
+</select>
+</div>
+
+<div class="sidefilter__select select"><img alt="" src="img/filter-arrow.svg" /> <select>
+<option value="0">год</option>
+<option value="1">Antares</option>
+</select>
+</div>
+
+<div class="sidefilter__select select"><img alt="" src="img/filter-arrow.svg" /> <select>
+<option value="0">модификация</option>
+<option value="1">Antares</option>
+</select>
+</div>
+
+<div class="sidefilter__select select"><img alt="" src="img/filter-arrow.svg" /> <select>
+<option value="0">сезон</option>
+<option value="1">Antares</option>
+</select>
+</div>
+
+<script>
+$(function(){	
+var body = $(this).find(".brandAuto");
+body.on('click', function(e){  
+ e.preventDefault();
+var brand=body.children(' .select__selected').text();
+$.ajax({ 
+url: 'index.php?route=extension/module/ocfilter',
+             type: 'post',  
+             data: {'brand': brand},
+            success: function(data) {
+            console.log(data);
+             } 
+        }); 
+  });
+});
+
+
+</script>

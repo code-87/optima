@@ -1,0 +1,26 @@
+﻿<Data>
+	<Characteristics>
+		<P id="3" gid="1" gname="Шины" code="tyre_diameter">Диаметр шины</P>
+		<P id="4" gid="1" gname="Шины" code="tyre_width">Ширина шины</P>
+		<P id="5" gid="1" gname="Шины" code="profile">Профиль шины</P>
+		<P id="6" gid="1" gname="Шины" code="speed_index">Индекс скорости</P>
+		<P id="7" gid="1" gname="Шины" code="speed">Скорость</P>
+		<P id="8" gid="1" gname="Шины" code="load_index">Индекс нагрузки</P>
+		<P id="9" gid="1" gname="Шины" code="load">Нагрузка</P>
+		<P id="10" gid="1" gname="Шины" code="season">Сезон шины</P>
+		<P id="11" code="brand">Бренд</P>
+		<P id="12" code="model">Модель</P>
+		<P id="13" gid="2" gname="Диски" code="disc_width">Ширина диска</P>
+		<P id="14" gid="2" gname="Диски" code="disc_diameter">Диаметр диска</P>
+		<P id="15" gid="2" gname="Диски" code="mount">Крепление диска</P>
+		<P id="16" gid="2" gname="Диски" code="dia">DIA диска</P>
+		<P id="17" gid="2" gname="Диски" code="et">ET диска</P>
+		<P id="18" gid="3" gname="Аккумуляторы" code="battery_capacity">Емкость АКБ</P>
+		<P id="19" gid="3" gname="Аккумуляторы" code="start_current">Пусковой ток АКБ</P>
+		<P id="20" gid="3" gname="Аккумуляторы" code="polarity">Полярность АКБ</P>
+		<P id="21" gid="3" gname="Аккумуляторы" code="battery_length">Длина АКБ</P>
+		<P id="22" gid="3" gname="Аккумуляторы" code="battery_width">Ширина АКБ</P>
+		<P id="23" gid="3" gname="Аккумуляторы" code="battery_height">Высота АКБ</P>
+		<P id="24" gid="1" gname="Шины" code="type">Тип шины</P>
+	</Characteristics>
+</Data>

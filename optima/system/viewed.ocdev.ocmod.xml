@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+	<name>OCDEV.pro Viewed products - total products</name>
+	<version>1.1</version>
+	<author>AlexWaha</author>
+	<code>ocdev_pro_viewed_mod_1.1</code>
+	<link>https://ocdev.pro</link>
+	<file path="catalog/controller/common/header.php">
+	<operation>
+		<search><![CDATA[return $this->load->view('common/header', $data);]]></search>
+		<add position="before"><![CDATA[
+        if (isset($this->request->cookie['viewed_product'])) {
+            $ocd_session_token = $this->request->cookie['viewed_product'];
+        }else{
+            $ocd_session_token = false;
+        }
+
+        $this->load->model('catalog/ochelp_viewed');
+
+		$data['ocd_viewed_total'] = $this->model_catalog_ochelp_viewed->getTotalViewedProduct($ocd_session_token);]]></add>
+	</operation>
+	</file>
+</modification>

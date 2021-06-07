@@ -1,0 +1,57 @@
+<?php
+class ModelCatalogTyresFilter extends Model {
+
+//загрузка размеров шин
+public function getAutoSize () {  
+$sql ="SELECT DISTINCT text, attribute_id  FROM oc_product_attribute ORDER BY attribute_id ASC";
+$query = $this->db->query($sql);
+$auto_size = $query->rows;
+return $auto_size; 
+}
+public function getTyresBrand () {  
+$sql ="SELECT DISTINCT * FROM oc_manufacturer ORDER BY name ASC";
+$query = $this->db->query($sql);
+$tyres_brands = $query->rows;
+return $tyres_brands; 
+}
+
+
+ //загрузка брендов авто 
+public function getAutoBrand () {  
+$sql ="SELECT DISTINCT vendor FROM search_by_vehicle ORDER BY vendor ASC";
+$query = $this->db->query($sql);
+$auto_brand = $query->rows;
+return $auto_brand; 
+}
+
+//загрузка моделей авто
+public function getAutoModel ($brand) {  
+$sql ="SELECT DISTINCT model_seria FROM search_by_vehicle WHERE vendor = '" .$brand. "'  ORDER BY model_seria ASC";
+$query = $this->db->query($sql);
+$auto_model = $query->rows;
+return $auto_model; 
+}
+//загрузка года авто
+public function getAutoYear ($brand, $model) {  
+$sql ="SELECT DISTINCT year FROM search_by_vehicle WHERE vendor = '" .$brand. "' AND model_seria =  '" .$model. "'  ORDER BY year ASC";
+$query = $this->db->query($sql);
+$auto_year = $query->rows;
+return $auto_year; 
+}
+
+//загрузка модификации авто
+public function getAutoMod ($brand, $model, $year) {  
+$sql ="SELECT * FROM search_by_vehicle WHERE vendor = '" .$brand. "' AND model_seria =  '" .$model. "' AND year =  '" .$year. "' ORDER BY modification ASC";
+$query = $this->db->query($sql);
+$auto_mod = $query->rows;
+return $auto_mod; 
+}
+//загрузка выбранного авто
+public function getAutoFiltered ($brand, $model, $year, $mod) {  
+$sql ="SELECT * FROM search_by_vehicle WHERE vendor = '" .$brand. "' AND model_seria =  '" .$model. "' AND year =  '" .$year. "' AND modification  =  '" .$mod. "' ";
+$query = $this->db->query($sql);
+$auto_filter = $query->rows;
+return $auto_filter; 
+}
+}
+?>

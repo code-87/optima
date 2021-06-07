@@ -1,0 +1,28 @@
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/default/stylesheet/ozrelated.css" />
+
+<?php if ($title) { ?>
+<h3><?php echo $title; ?></h3>
+<?php } ?>
+
+<div class="row">
+  <?php foreach ($products as $product) { ?>
+    <div class="col-xs-12">
+      <div class="product-thumb transition">
+          <?php if ($product['self']) { ?>  <div class="oz_item self"> <?php } else { ?> <div class="oz_item noself"> <?php } ?>
+            <?php if (!$simple&&$product['image']) { ?>
+              <div class="image">
+                <img src="<?php echo $product['image']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" />
+              </div>  
+            <?php } ?>
+            <div class="caption">
+              <h4><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></h4>
+              <?php if (!$simple) { ?>
+                <p><span class="model_text">Модель: </span><span class="model_value"><?php echo $product['model']; ?></span></p>
+                <p><span class="price_text">Цена: </span><span class="price_value"><?php echo $product['price']; ?></span></p>
+              <?php } ?>
+            </div>
+          </div>
+      </div>
+    </div>
+  <?php } ?>
+</div>

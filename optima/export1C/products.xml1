@@ -1,0 +1,3040 @@
+﻿<Data>
+	<Products>
+		<Product id="19876">
+			<name>Шина всесезонная 185/75R16C 104/102R Росава 104/102N БЦ-24</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7393.jpg</photo>
+			<price>1200,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>185</tyre_width>
+			<profile>75</profile>
+			<speed_index>R</speed_index>
+			<speed>140</speed>
+			<load_index>104/102</load_index>
+			<season>всесезонная</season>
+			<brand>Росава</brand>
+			<model>104/102N БЦ-24</model>
+			<type>Л</type>
+		</Product>
+		<Product id="19879">
+			<name>Шина зимняя 175/70R13 82T Росава Snowgard</name>
+			<category id="1">Шины</category>
+			<description lang="ru">— это зимняя легковая шина с красивым направленным протектором. Производитель шин — украинская компания ROSAVA. Предприятие находится в городе Белая Церковь киевской области. История компании начинается в 1972 году. Компания производит шины для всех видов транспорта. Последние десять лет предприятие динамично развивает свои производственные мощности, обновляя их новым оборудованием и запуская производство новых моделей и размеров шин. Основными преимуществами шины являются:
+• За невысокую стоимость шина является качественным высокотехнологичным продуктом.
+• Протектор шины имеет интересный дизайн и реализован с использованием технологии 3D GRIPPING, что обеспечивает хорошее сцепление шины с дорогой при разном уровне износа. 
+• Прочный компаунд из которого изготовлена шина обеспечивает низкое сопротивление качению и долгий, равномерный износ шины.
+
+ Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>WYU_7299.jpg</photo>
+			<price>590,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>13</tyre_diameter>
+			<tyre_width>175</tyre_width>
+			<profile>70</profile>
+			<speed_index>T</speed_index>
+			<speed>190</speed>
+			<load_index>82</load_index>
+			<load>475</load>
+			<season>зимняя</season>
+			<brand>Росава</brand>
+			<model>Snowgard</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20514">
+			<name>Шина зимняя 245/55R19 103H RW501 Kapsen</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это зимняя легковая шина c асимметричным протектором. Производитель шин китайская компания Habilead выкупившая технологии японской компании Bridgestone. Рисунок протектора шины такой же как у шины Bridgestone Blizzak DM-V1. Шина имеет высокое соотношение цена/качество и соответствует всем европейским стандартам качества шин. Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5908.jpg</photo>
+			<price>2450,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>19</tyre_diameter>
+			<tyre_width>245</tyre_width>
+			<profile>55</profile>
+			<speed_index>H</speed_index>
+			<speed>210</speed>
+			<load_index>103</load_index>
+			<load>875</load>
+			<season>зимняя</season>
+			<model>RW501 Kapsen</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20571">
+			<name>Шина зимняя 215/60R16 99H Strial Winter</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7326.jpg</photo>
+			<price>1662,00</price>
+			<stock>10</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>215</tyre_width>
+			<profile>60</profile>
+			<speed_index>H</speed_index>
+			<speed>210</speed>
+			<load_index>99</load_index>
+			<load>775</load>
+			<season>зимняя</season>
+			<brand>Strial</brand>
+			<model>Winter</model>
+			<type>Л</type>
+		</Product>
+		<Product id="19354">
+			<name>Шина зимняя 205/55R16 94T RW506 Habilead</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7446.jpg</photo>
+			<price>1100,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>205</tyre_width>
+			<profile>55</profile>
+			<speed_index>T</speed_index>
+			<speed>190</speed>
+			<load_index>94</load_index>
+			<load>670</load>
+			<season>зимняя</season>
+			<model>RW506 Habilead</model>
+			<type>Л</type>
+		</Product>
+		<Product id="19367">
+			<name>Шина зимняя 215/70R15 98T Farroad FRD79</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7352.jpg</photo>
+			<price>1390,50</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>15</tyre_diameter>
+			<tyre_width>215</tyre_width>
+			<profile>70</profile>
+			<speed_index>T</speed_index>
+			<speed>190</speed>
+			<load_index>98</load_index>
+			<load>750</load>
+			<season>зимняя</season>
+			<brand>Farroad</brand>
+			<model>FRD79</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20199">
+			<name>Шина летняя 255/55R18 109Y Bridgestone ALENZA 001</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7502.jpg</photo>
+			<price>3700,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>18</tyre_diameter>
+			<tyre_width>255</tyre_width>
+			<profile>55</profile>
+			<speed_index>Y</speed_index>
+			<speed>300</speed>
+			<load_index>109</load_index>
+			<load>1 030</load>
+			<season>летняя</season>
+			<brand>Bridgestone</brand>
+			<model>ALENZA 001</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20200">
+			<name>Шина летняя 255/55R19 111Y Kumho HP91</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это летняя легковая шина с асимметричным протектором. Производитель шины южнокорейская компания Kumho – одна из 10 крупнейших шинных компаний в мире. Основными преимуществами шины являются:
+• Высокотехнологичный материал шин обеспечивает хорошие показатели сцепления на мокром покрытии
+• Высокий уровень износостойости благодаря уникальному составу смеси
+• Высокая поперечная устойчивость в поворотах
+• Превосходное сопротивление аквапланированию
+ Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_6113.jpg</photo>
+			<price>3170,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>19</tyre_diameter>
+			<tyre_width>255</tyre_width>
+			<profile>55</profile>
+			<speed_index>Y</speed_index>
+			<speed>300</speed>
+			<load_index>111</load_index>
+			<load>1 090</load>
+			<season>летняя</season>
+			<brand>Kumho</brand>
+			<model>HP91</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20212">
+			<name>Шина летняя 195/65R15 91V S801 Kapsen</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7435.jpg</photo>
+			<price>1068,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>15</tyre_diameter>
+			<tyre_width>195</tyre_width>
+			<profile>65</profile>
+			<speed_index>V</speed_index>
+			<speed>240</speed>
+			<load_index>91</load_index>
+			<load>615</load>
+			<season>летняя</season>
+			<model>S801 Kapsen</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20248">
+			<name>Шина грузовая 295/80R22,5 154/150L LD2 MAXELL Super (ведущая)</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7888.jpg</photo>
+			<price>7100,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>22,5</tyre_diameter>
+			<tyre_width>295</tyre_width>
+			<profile>80</profile>
+			<speed_index>L</speed_index>
+			<speed>120</speed>
+			<load_index>154/150</load_index>
+			<load>3 750/3 350</load>
+			<model>LD2 MAXELL Super</model>
+			<type>В</type>
+		</Product>
+		<Product id="20255">
+			<name>Шина летняя 235/65R17 108Y Kumho HP71</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7548.jpg</photo>
+			<price>2073,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>17</tyre_diameter>
+			<tyre_width>235</tyre_width>
+			<profile>65</profile>
+			<speed_index>Y</speed_index>
+			<speed>240</speed>
+			<load_index>108</load_index>
+			<season>летняя</season>
+			<brand>Kumho</brand>
+			<model>HP71</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20258">
+			<name>Шина летняя 245/45R19 102W Compasal Smacher</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7559.jpg</photo>
+			<price>1900,00</price>
+			<stock>8</stock>
+			<active>true</active>
+			<tyre_diameter>19</tyre_diameter>
+			<tyre_width>245</tyre_width>
+			<profile>45</profile>
+			<speed_index>W</speed_index>
+			<speed>270</speed>
+			<load_index>102</load_index>
+			<load>850</load>
+			<season>летняя</season>
+			<brand>Compasal</brand>
+			<model>Smacher</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20264">
+			<name>Шина летняя 215/65R16 98H Nokian NORDMAN S SUV</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7505.jpg</photo>
+			<price>1790,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>215</tyre_width>
+			<profile>65</profile>
+			<speed_index>H</speed_index>
+			<speed>210</speed>
+			<load_index>98</load_index>
+			<load>750</load>
+			<season>летняя</season>
+			<brand>Nokian</brand>
+			<model>NORDMAN S SUV</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20271">
+			<name>Шина летняя 255/55R18 105H Nokian NORDMAN S SUV</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7505.jpg</photo>
+			<price>2747,00</price>
+			<stock>4</stock>
+			<active>true</active>
+			<tyre_diameter>18</tyre_diameter>
+			<tyre_width>255</tyre_width>
+			<profile>55</profile>
+			<speed_index>H</speed_index>
+			<speed>210</speed>
+			<load_index>105</load_index>
+			<load>925</load>
+			<season>летняя</season>
+			<brand>Nokian</brand>
+			<model>NORDMAN S SUV</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20280">
+			<name>Шина летняя 195/75R16C 107/105R Strial 101</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7326.jpg</photo>
+			<price>2076,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>195</tyre_width>
+			<profile>75</profile>
+			<speed_index>R</speed_index>
+			<speed>170</speed>
+			<load_index>107/105</load_index>
+			<load>975/925</load>
+			<season>летняя</season>
+			<brand>Strial</brand>
+			<model>101</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20288">
+			<name>Шина летняя 205/60R15 91V Strial HP</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7340.jpg</photo>
+			<price>1415,00</price>
+			<stock>8</stock>
+			<active>true</active>
+			<tyre_diameter>15</tyre_diameter>
+			<tyre_width>205</tyre_width>
+			<profile>60</profile>
+			<speed_index>V</speed_index>
+			<speed>240</speed>
+			<load_index>91</load_index>
+			<load>615</load>
+			<season>летняя</season>
+			<brand>Strial</brand>
+			<model>HP</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20313">
+			<name>Шина летняя 205/50R17 93W Hankook K125 Ventus Prime 3</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7412.jpg</photo>
+			<price>2220,00</price>
+			<stock>2</stock>
+			<active>true</active>
+			<tyre_diameter>17</tyre_diameter>
+			<tyre_width>205</tyre_width>
+			<profile>50</profile>
+			<speed_index>W</speed_index>
+			<speed>270</speed>
+			<load_index>93</load_index>
+			<load>650</load>
+			<season>летняя</season>
+			<brand>Hankook</brand>
+			<model>K125 Ventus Prime 3</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20356">
+			<name>Шина летняя 205/65R15 94V Росава Solazo Plus Premiorri</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7365.jpg</photo>
+			<price>890,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>15</tyre_diameter>
+			<tyre_width>205</tyre_width>
+			<profile>65</profile>
+			<speed_index>V</speed_index>
+			<speed>240</speed>
+			<load_index>94</load_index>
+			<load>670</load>
+			<season>летняя</season>
+			<brand>Росава</brand>
+			<model>Solazo Plus Premiorri</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20373">
+			<name>Шина летняя 185/60R15 84V Bridgestone Ecopia EP300</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7467.jpg</photo>
+			<price>1230,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>15</tyre_diameter>
+			<tyre_width>185</tyre_width>
+			<profile>60</profile>
+			<speed_index>V</speed_index>
+			<speed>240</speed>
+			<load_index>84</load_index>
+			<load>500</load>
+			<season>летняя</season>
+			<brand>Bridgestone</brand>
+			<model>Ecopia EP300</model>
+			<type>Л</type>
+		</Product>
+		<Product id="1484">
+			<name>Диск Kapitan 5,5x14 PCD 4x98, ET35, DIA58,6</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7707.jpg</photo>
+			<price>525,00</price>
+			<stock>336</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>5,5</disc_width>
+			<disc_diameter>14</disc_diameter>
+			<mount>4x98</mount>
+			<dia>DIA58,6</dia>
+			<et>ET35</et>
+		</Product>
+		<Product id="1485">
+			<name>Диск Kapitan 6x15 PCD 4x100, ET43, DIA60,1</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5857.jpg</photo>
+			<price>625,00</price>
+			<stock>181</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6</disc_width>
+			<disc_diameter>15</disc_diameter>
+			<mount>4x100</mount>
+			<dia>DIA60,1</dia>
+			<et>ET43</et>
+		</Product>
+		<Product id="1486">
+			<name>Диск Kapitan 6,5x16 PCD 5x114,3, ET46, DIA67,1</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5854.jpg</photo>
+			<price>750,00</price>
+			<stock>202</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6,5</disc_width>
+			<disc_diameter>16</disc_diameter>
+			<mount>5x114,3</mount>
+			<dia>DIA67,1</dia>
+			<et>ET46</et>
+		</Product>
+		<Product id="1493">
+			<name>Диск Kapitan 5,5x14 PCD 4x100, ET43, DIA60,1</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5862.jpg</photo>
+			<price>550,00</price>
+			<stock>339</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>5,5</disc_width>
+			<disc_diameter>14</disc_diameter>
+			<mount>4x100</mount>
+			<dia>DIA60,1</dia>
+			<et>ET43</et>
+		</Product>
+		<Product id="1494">
+			<name>Диск Kapitan 6x15 PCD 5x112, ET45, DIA57,1</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5865.jpg</photo>
+			<price>680,00</price>
+			<stock>321</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6</disc_width>
+			<disc_diameter>15</disc_diameter>
+			<mount>5x112</mount>
+			<dia>DIA57,1</dia>
+			<et>ET45</et>
+		</Product>
+		<Product id="1496">
+			<name>Диск Kapitan 6x15 PCD 5x114,3, ET45, DIA67,1</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5851.jpg</photo>
+			<price>675,00</price>
+			<stock>1</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6</disc_width>
+			<disc_diameter>15</disc_diameter>
+			<mount>5x114,3</mount>
+			<dia>DIA67,1</dia>
+			<et>ET45</et>
+		</Product>
+		<Product id="1497">
+			<name>Диск Kapitan 6,5x17 PCD 5x114,3, ET40, DIA67,1</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7639.jpg</photo>
+			<price>950,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6,5</disc_width>
+			<disc_diameter>17</disc_diameter>
+			<mount>5x114,3</mount>
+			<dia>DIA67,1</dia>
+			<et>ET40</et>
+		</Product>
+		<Product id="1498">
+			<name>Диск Kapitan 9x22,5 PCD 10x335, ET175, DIA281</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5816.jpg</photo>
+			<price>2500,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>9</disc_width>
+			<disc_diameter>22,5</disc_diameter>
+			<mount>10x335</mount>
+			<dia>DIA281</dia>
+			<et>ET175</et>
+		</Product>
+		<Product id="1499">
+			<name>Диск Kapitan 11,75x22,5 PCD 10x335, ET120, DIA281</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5817.jpg</photo>
+			<price>2850,00</price>
+			<stock>121</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>11,75</disc_width>
+			<disc_diameter>22,5</disc_diameter>
+			<mount>10x335</mount>
+			<dia>DIA281</dia>
+			<et>ET120</et>
+		</Product>
+		<Product id="1500">
+			<name>Диск Kapitan 11,75x22,5 PCD 10x335, ET0, DIA281</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5818.jpg</photo>
+			<price>2500,00</price>
+			<stock>177</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>11,75</disc_width>
+			<disc_diameter>22,5</disc_diameter>
+			<mount>10x335</mount>
+			<dia>DIA281</dia>
+			<et>ET0</et>
+		</Product>
+		<Product id="1505">
+			<name>Диск Kapitan 6x15 PCD 4x100, ET45, DIA54,1</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5846.jpg</photo>
+			<price>650,00</price>
+			<stock>160</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6</disc_width>
+			<disc_diameter>15</disc_diameter>
+			<mount>4x100</mount>
+			<dia>DIA54,1</dia>
+			<et>ET45</et>
+		</Product>
+		<Product id="1506">
+			<name>Диск Kapitan 6x15 PCD 4x100, ET43, DIA56,6</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5841.jpg</photo>
+			<price>675,00</price>
+			<stock>4</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6</disc_width>
+			<disc_diameter>15</disc_diameter>
+			<mount>4x100</mount>
+			<dia>DIA56,6</dia>
+			<et>ET43</et>
+		</Product>
+		<Product id="1507">
+			<name>Диск Kapitan 6x15 PCD 4x114,3, ET45, DIA56,6</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5850.jpg</photo>
+			<price>725,00</price>
+			<stock>107</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6</disc_width>
+			<disc_diameter>15</disc_diameter>
+			<mount>4x114,3</mount>
+			<dia>DIA56,6</dia>
+			<et>ET45</et>
+		</Product>
+		<Product id="1508">
+			<name>Диск Kapitan 6x15 PCD 5x108, ET52, DIA63,3</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5922.jpg</photo>
+			<price>850,00</price>
+			<stock>214</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6</disc_width>
+			<disc_diameter>15</disc_diameter>
+			<mount>5x108</mount>
+			<dia>DIA63,3</dia>
+			<et>ET52</et>
+		</Product>
+		<Product id="1509">
+			<name>Диск Kapitan 6,5x16 PCD 5x108, ET52, DIA63,3</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5859 copy.jpg</photo>
+			<price>725,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6,5</disc_width>
+			<disc_diameter>16</disc_diameter>
+			<mount>5x108</mount>
+			<dia>DIA63,3</dia>
+			<et>ET52</et>
+		</Product>
+		<Product id="1510">
+			<name>Диск Kapitan 6,5x16 PCD 5x112, ET50, DIA57,1</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7636.jpg</photo>
+			<price>750,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6,5</disc_width>
+			<disc_diameter>16</disc_diameter>
+			<mount>5x112</mount>
+			<dia>DIA57,1</dia>
+			<et>ET50</et>
+		</Product>
+		<Product id="1511">
+			<name>Диск Kapitan 6,75x19,5 PCD 8x275, ET134, DIA221</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7737.jpg</photo>
+			<price>1750,00</price>
+			<stock>132</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6,75</disc_width>
+			<disc_diameter>19,5</disc_diameter>
+			<mount>8x275</mount>
+			<dia>DIA221</dia>
+			<et>ET134</et>
+		</Product>
+		<Product id="1512">
+			<name>Диск Kapitan 7,5x19,5 PCD 8x275, ET143, DIA221</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5838.jpg</photo>
+			<price>2000,00</price>
+			<stock>67</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>7,5</disc_width>
+			<disc_diameter>19,5</disc_diameter>
+			<mount>8x275</mount>
+			<dia>DIA221</dia>
+			<et>ET143</et>
+		</Product>
+		<Product id="1517">
+			<name>Диск Kapitan 6x17,5 PCD 6x245, ET115, DIA202</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5832.jpg</photo>
+			<price>1800,00</price>
+			<stock>81</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6</disc_width>
+			<disc_diameter>17,5</disc_diameter>
+			<mount>6x245</mount>
+			<dia>DIA202</dia>
+			<et>ET115</et>
+		</Product>
+		<Product id="1518">
+			<name>Диск Kapitan 6,75x17,5 PCD 6x245, ET140, DIA202</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5831.jpg</photo>
+			<price>1950,00</price>
+			<stock>85</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6,75</disc_width>
+			<disc_diameter>17,5</disc_diameter>
+			<mount>6x245</mount>
+			<dia>DIA202</dia>
+			<et>ET140</et>
+		</Product>
+		<Product id="1519">
+			<name>Диск Kapitan 8,25x22,5 PCD 10x335, ET165, DIA281</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5820.jpg</photo>
+			<price>1950,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>8,25</disc_width>
+			<disc_diameter>22,5</disc_diameter>
+			<mount>10x335</mount>
+			<dia>DIA281</dia>
+			<et>ET165</et>
+		</Product>
+		<Product id="1529">
+			<name>Диск Kapitan 6x17,5 PCD 10x225, ET132, DIA176</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5833.jpg</photo>
+			<price>1550,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6</disc_width>
+			<disc_diameter>17,5</disc_diameter>
+			<mount>10x225</mount>
+			<dia>DIA176</dia>
+			<et>ET132</et>
+		</Product>
+		<Product id="1534">
+			<name>Диск Kapitan 6,5x16 PCD 5x120, ET50, DIA65,1</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7613.jpg</photo>
+			<price>800,00</price>
+			<stock>103</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6,5</disc_width>
+			<disc_diameter>16</disc_diameter>
+			<mount>5x120</mount>
+			<dia>DIA65,1</dia>
+			<et>ET50</et>
+		</Product>
+		<Product id="1537">
+			<name>Диск Kapitan 5,5x14 PCD 4x100, ET46, DIA54,1</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7686.jpg</photo>
+			<price>600,00</price>
+			<stock>390</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>5,5</disc_width>
+			<disc_diameter>14</disc_diameter>
+			<mount>4x100</mount>
+			<dia>DIA54,1</dia>
+			<et>ET46</et>
+		</Product>
+		<Product id="1538">
+			<name>Диск Kapitan 6,5x15 PCD 5x110, ET35, DIA65,1</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7654.jpg</photo>
+			<price>750,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6,5</disc_width>
+			<disc_diameter>15</disc_diameter>
+			<mount>5x110</mount>
+			<dia>DIA65,1</dia>
+			<et>ET35</et>
+		</Product>
+		<Product id="1539">
+			<name>Диск Kapitan 6,5x17 PCD 5x114,3, ET45, DIA60,1</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5848.jpg</photo>
+			<price>950,00</price>
+			<stock>32</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6,5</disc_width>
+			<disc_diameter>17</disc_diameter>
+			<mount>5x114,3</mount>
+			<dia>DIA60,1</dia>
+			<et>ET45</et>
+		</Product>
+		<Product id="1540">
+			<name>Диск Kapitan 5x14 PCD 5x100, ET35, DIA57,1</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7616.jpg</photo>
+			<price>575,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>5</disc_width>
+			<disc_diameter>14</disc_diameter>
+			<mount>5x100</mount>
+			<dia>DIA57,1</dia>
+			<et>ET35</et>
+		</Product>
+		<Product id="1541">
+			<name>Диск Kapitan 6x15 PCD 4x108, ET47, DIA63,3</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7667.jpg</photo>
+			<price>675,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6</disc_width>
+			<disc_diameter>15</disc_diameter>
+			<mount>4x108</mount>
+			<dia>DIA63,3</dia>
+			<et>ET47</et>
+		</Product>
+		<Product id="1542">
+			<name>Диск Kapitan 6,5x16 PCD 5x114,3, ET45, DIA60,1</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5856.jpg</photo>
+			<price>770,00</price>
+			<stock>4</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6,5</disc_width>
+			<disc_diameter>16</disc_diameter>
+			<mount>5x114,3</mount>
+			<dia>DIA60,1</dia>
+			<et>ET45</et>
+		</Product>
+		<Product id="1544">
+			<name>Диск Kapitan 14x19,5 PCD 8x275, ET0, DIA221</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5830.jpg</photo>
+			<price>2900,00</price>
+			<stock>22</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>14</disc_width>
+			<disc_diameter>19,5</disc_diameter>
+			<mount>8x275</mount>
+			<dia>DIA221</dia>
+			<et>ET0</et>
+		</Product>
+		<Product id="1545">
+			<name>Диск Kapitan 14x19,5 PCD 10x335, ET120, DIA281</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5824.jpg</photo>
+			<price>3150,00</price>
+			<stock>73</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>14</disc_width>
+			<disc_diameter>19,5</disc_diameter>
+			<mount>10x335</mount>
+			<dia>DIA281</dia>
+			<et>ET120</et>
+		</Product>
+		<Product id="1546">
+			<name>Диск Kapitan 14x22,5 PCD 10x335, ET0, DIA281</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5933.jpg</photo>
+			<price>2800,00</price>
+			<stock>43</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>14</disc_width>
+			<disc_diameter>22,5</disc_diameter>
+			<mount>10x335</mount>
+			<dia>DIA281</dia>
+			<et>ET0</et>
+		</Product>
+		<Product id="1547">
+			<name>Диск Kapitan 6x15 PCD 4x98, ET35, DIA58,1</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5863.jpg</photo>
+			<price>800,00</price>
+			<stock>260</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6</disc_width>
+			<disc_diameter>15</disc_diameter>
+			<mount>4x98</mount>
+			<dia>DIA58,1</dia>
+			<et>ET35</et>
+		</Product>
+		<Product id="1549">
+			<name>Диск Kapitan 6,5x16 PCD 5x105, ET40, DIA56,6</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5847.jpg</photo>
+			<price>800,00</price>
+			<stock>200</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6,5</disc_width>
+			<disc_diameter>16</disc_diameter>
+			<mount>5x105</mount>
+			<dia>DIA56,6</dia>
+			<et>ET40</et>
+		</Product>
+		<Product id="1562">
+			<name>Диск Kapitan 6,5x17 PCD 5x114,3, ET50, DIA64,1</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7682.jpg</photo>
+			<price>950,00</price>
+			<stock>1</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6,5</disc_width>
+			<disc_diameter>17</disc_diameter>
+			<mount>5x114,3</mount>
+			<dia>DIA64,1</dia>
+			<et>ET50</et>
+		</Product>
+		<Product id="1566">
+			<name>Диск Kapitan 6,5x16 PCD 5x114,3, ET45, DIA64,1</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5855.jpg</photo>
+			<price>850,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6,5</disc_width>
+			<disc_diameter>16</disc_diameter>
+			<mount>5x114,3</mount>
+			<dia>DIA64,1</dia>
+			<et>ET45</et>
+		</Product>
+		<Product id="1567">
+			<name>Диск Kapitan 6,5x16 PCD 5x110, ET37, DIA65,1</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7657.jpg</photo>
+			<price>750,00</price>
+			<stock>2</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6,5</disc_width>
+			<disc_diameter>16</disc_diameter>
+			<mount>5x110</mount>
+			<dia>DIA65,1</dia>
+			<et>ET37</et>
+		</Product>
+		<Product id="1571">
+			<name>Диск Kapitan 6x15 PCD 5x100, ET38, DIA57,1</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5866.jpg</photo>
+			<price>650,00</price>
+			<stock>240</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6</disc_width>
+			<disc_diameter>15</disc_diameter>
+			<mount>5x100</mount>
+			<dia>DIA57,1</dia>
+			<et>ET38</et>
+		</Product>
+		<Product id="1578">
+			<name>Диск Kapitan 7,5x22,5 PCD 10x335, ET153, DIA281</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5821.jpg</photo>
+			<price>2150,00</price>
+			<stock>126</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>7,5</disc_width>
+			<disc_diameter>22,5</disc_diameter>
+			<mount>10x335</mount>
+			<dia>DIA281</dia>
+			<et>ET153</et>
+		</Product>
+		<Product id="1580">
+			<name>Диск Kapitan 6x15 PCD 5x98, ET30, DIA58,1</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5874.jpg</photo>
+			<price>800,00</price>
+			<stock>80</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6</disc_width>
+			<disc_diameter>15</disc_diameter>
+			<mount>5x98</mount>
+			<dia>DIA58,1</dia>
+			<et>ET30</et>
+		</Product>
+		<Product id="1581">
+			<name>Диск Kapitan 6x16 PCD 5x118, ET50, DIA71,1</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7642.jpg</photo>
+			<price>1000,00</price>
+			<stock>10</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6</disc_width>
+			<disc_diameter>16</disc_diameter>
+			<mount>5x118</mount>
+			<dia>DIA71,1</dia>
+			<et>ET50</et>
+		</Product>
+		<Product id="1594">
+			<name>Диск Kapitan 11,75x19,5 PCD 8x275, ET0, DIA221</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5839.jpg</photo>
+			<price>2450,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>11,75</disc_width>
+			<disc_diameter>19,5</disc_diameter>
+			<mount>8x275</mount>
+			<dia>DIA221</dia>
+			<et>ET0</et>
+		</Product>
+		<Product id="1664">
+			<name>Диск Kapitan 14x19,5 PCD 10x335, ET0, DIA281</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5932.jpg</photo>
+			<price>2500,00</price>
+			<stock>13</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>14</disc_width>
+			<disc_diameter>19,5</disc_diameter>
+			<mount>10x335</mount>
+			<dia>DIA281</dia>
+			<et>ET0</et>
+		</Product>
+		<Product id="1667">
+			<name>Диск Kapitan 11,75x22,5 PCD 10x335, ET135, DIA281</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7730.jpg</photo>
+			<price>2900,00</price>
+			<stock>62</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>11,75</disc_width>
+			<disc_diameter>22,5</disc_diameter>
+			<mount>10x335</mount>
+			<dia>DIA281</dia>
+			<et>ET135</et>
+		</Product>
+		<Product id="1678">
+			<name>Диск Kapitan 6,75x17,5 PCD 6x222,25, ET140, DIA164</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5829.jpg</photo>
+			<price>1050,00</price>
+			<stock>131</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6,75</disc_width>
+			<disc_diameter>17,5</disc_diameter>
+			<mount>6x222,25</mount>
+			<dia>DIA164</dia>
+			<et>ET140</et>
+		</Product>
+		<Product id="1679">
+			<name>Диск Kapitan 8,25x19,5 PCD 8x275, ET165, DIA221</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5840.jpg</photo>
+			<price>1900,00</price>
+			<stock>69</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>8,25</disc_width>
+			<disc_diameter>19,5</disc_diameter>
+			<mount>8x275</mount>
+			<dia>DIA221</dia>
+			<et>ET165</et>
+		</Product>
+		<Product id="1681">
+			<name>Диск Kapitan 6,75x17,5 PCD 10x225, ET145, DIA176</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5837.jpg</photo>
+			<price>2050,00</price>
+			<stock>61</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6,75</disc_width>
+			<disc_diameter>17,5</disc_diameter>
+			<mount>10x225</mount>
+			<dia>DIA176</dia>
+			<et>ET145</et>
+		</Product>
+		<Product id="1688">
+			<name>Диск Kapitan 6,5x16 PCD 5x112, ET37, DIA66,6</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5858.jpg</photo>
+			<price>750,00</price>
+			<stock>1</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6,5</disc_width>
+			<disc_diameter>16</disc_diameter>
+			<mount>5x112</mount>
+			<dia>DIA66,6</dia>
+			<et>ET37</et>
+		</Product>
+		<Product id="1689">
+			<name>Диск Kapitan 6,5x16 PCD 5x114,3, ET40, DIA66,1</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7603.jpg</photo>
+			<price>800,00</price>
+			<stock>40</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6,5</disc_width>
+			<disc_diameter>16</disc_diameter>
+			<mount>5x114,3</mount>
+			<dia>DIA66,1</dia>
+			<et>ET40</et>
+		</Product>
+		<Product id="1693">
+			<name>Диск Kapitan 14x19,5 PCD 8x275, ET120, DIA221</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7734.jpg</photo>
+			<price>2800,00</price>
+			<stock>11</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>14</disc_width>
+			<disc_diameter>19,5</disc_diameter>
+			<mount>8x275</mount>
+			<dia>DIA221</dia>
+			<et>ET120</et>
+		</Product>
+		<Product id="1708">
+			<name>Шина грузовая 295/80R22,5 152/149M Longmarch Roadlux R216  (рулевая)</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это грузовая шина для рулевой оси.  Шина имеет высокое соотношение цена/качество и соответствует всем европейским стандартам качества шин. Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_6108.jpg</photo>
+			<price>5500,00</price>
+			<stock>22</stock>
+			<active>true</active>
+			<tyre_diameter>22,5</tyre_diameter>
+			<tyre_width>295</tyre_width>
+			<profile>80</profile>
+			<speed_index>M</speed_index>
+			<speed>130</speed>
+			<load_index>152/149</load_index>
+			<load>3 550/3 250</load>
+			<brand>Longmarch</brand>
+			<model>Roadlux R216</model>
+			<type>В</type>
+		</Product>
+		<Product id="1743">
+			<name>Шина грузовая 13R22.5 154/151M Longmarch LM201 (рулевая,универсальная,каръер)</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7988.jpg</photo>
+			<price>6400,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>22,5</tyre_diameter>
+			<tyre_width>13</tyre_width>
+			<speed_index>M</speed_index>
+			<speed>130</speed>
+			<load_index>154/151</load_index>
+			<load>3 750/3 450</load>
+			<brand>Longmarch</brand>
+			<model>LM201</model>
+			<type>В</type>
+		</Product>
+		<Product id="1745">
+			<name>Шина грузовая 295/60R22,5 149/146M Longmarch LM329 (ведущая)</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7873.jpg</photo>
+			<price>5500,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>22,5</tyre_diameter>
+			<tyre_width>295</tyre_width>
+			<profile>60</profile>
+			<speed_index>M</speed_index>
+			<speed>130</speed>
+			<load_index>149/146</load_index>
+			<load>3 250/3 000</load>
+			<brand>Longmarch</brand>
+			<model>LM329</model>
+			<type>В</type>
+		</Product>
+		<Product id="1746">
+			<name>Шина грузовая 295/80R22,5 152/149M Longmarch LM329 (ведущая)</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7873.jpg</photo>
+			<price>5750,00</price>
+			<stock>7</stock>
+			<active>true</active>
+			<tyre_diameter>22,5</tyre_diameter>
+			<tyre_width>295</tyre_width>
+			<profile>80</profile>
+			<speed_index>M</speed_index>
+			<speed>130</speed>
+			<load_index>152/149</load_index>
+			<load>3 550/3 250</load>
+			<brand>Longmarch</brand>
+			<model>LM329</model>
+			<type>В</type>
+		</Product>
+		<Product id="1866">
+			<name>Шина грузовая 9.00R20 (260R508) 144/142K  HS268 TERRAKING (универсальная)</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это грузовая универсальная шина  Износостойкость шины сравнима с износостойкостью шин премиальных брендов Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5883.jpg</photo>
+			<price>4300,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>20</tyre_diameter>
+			<tyre_width>9</tyre_width>
+			<speed_index>K</speed_index>
+			<speed>110</speed>
+			<load_index>144/142</load_index>
+			<load>2 800/2 650</load>
+			<model>HS268 TERRAKING</model>
+			<type>В</type>
+		</Product>
+		<Product id="1908">
+			<name>Шина 260 R 508 ИН-142 14сл (ромб) Кама</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_8036.jpg</photo>
+			<price>3650,00</price>
+			<stock>20</stock>
+			<active>true</active>
+			<tyre_diameter>508</tyre_diameter>
+			<tyre_width>260</tyre_width>
+			<speed_index>K</speed_index>
+			<speed>110</speed>
+			<load_index>140</load_index>
+			<load>2500</load>
+			<brand>Кама</brand>
+			<model>260 R 508 ИН-142 14сл (ромб)</model>
+			<type>В</type>
+		</Product>
+		<Product id="1929">
+			<name>Шина зимняя 225/65R17 102S Bridgestone Blizzak DM-V2</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это зимние шины для для внедорожника/кроссовера. Шины имеют направленный протектор. Производитель шин – крупная японская компания Bridgestone, один из лидеров мирового рынка шин. Шина имеет прекрасные характеристики сцепления и торможения в любую зимнюю погоду.  Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5955.jpg</photo>
+			<price>3500,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>17</tyre_diameter>
+			<tyre_width>225</tyre_width>
+			<profile>65</profile>
+			<speed_index>S</speed_index>
+			<speed>180</speed>
+			<load_index>102</load_index>
+			<load>850</load>
+			<season>зимняя</season>
+			<brand>Bridgestone</brand>
+			<model>Blizzak DM-V2</model>
+			<type>Л</type>
+		</Product>
+		<Product id="1962">
+			<name>Шина летняя 255/60R17 106V Nexen NFERA RU1</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это  шина для легких внеторожников (автомобилей класса CUV). Производитель шины южнокорейская компания Nexen. Компания Nexen входит в ряд крупнейших азиатских компаний. Компания выпускает шины высочайшего качества, не уступающее по эксплуатационным характеристикам шинам более известных компаний Основными преимуществами шины являются:
+• Шина имеет сцепные характеристики спортивных шин;
+• Высокая устойчивость аквапланированию
+• Низкий уровень шума.
+ Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5914.jpg</photo>
+			<price>2300,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>17</tyre_diameter>
+			<tyre_width>255</tyre_width>
+			<profile>60</profile>
+			<speed_index>V</speed_index>
+			<speed>240</speed>
+			<load_index>106</load_index>
+			<load>950</load>
+			<season>летняя</season>
+			<brand>Nexen</brand>
+			<model>NFERA RU1</model>
+			<type>Л</type>
+		</Product>
+		<Product id="1978">
+			<name>Шина зимняя 205/55R16 91H RW501 Habilead</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это зимняя легковая шина c асимметричным протектором. Производитель шин китайская компания Habilead выкупившая технологии японской компании Bridgestone. Рисунок протектора шины такой же как у шины Bridgestone Blizzak DM-V1. Шина имеет высокое соотношение цена/качество и соответствует всем европейским стандартам качества шин. Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5908.jpg</photo>
+			<price>1290,00</price>
+			<stock>1</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>205</tyre_width>
+			<profile>55</profile>
+			<speed_index>H</speed_index>
+			<speed>210</speed>
+			<load_index>91</load_index>
+			<load>615</load>
+			<season>зимняя</season>
+			<model>RW501 Habilead</model>
+			<type>Л</type>
+		</Product>
+		<Product id="2025">
+			<name>Шина зимняя 195/60R16C 99/97T 99/97T WV-03 OVATION</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это зимняя легковая шина с асимметричным протектором. Шины под брендом Ovation, на нескольких заводах, выпускает крупная китайская компания Ovation.,Ltd. В научно-исследовательском центре компании разрабатываются резиновые смеси и проектируются шины с высококлассными характеристиками. Продукция компании поставляется во многие страны мира.  Шина имеет высокое соотношение цена/качество. Шина соответствует всем европейским стандартам качества шин. Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5797.jpg</photo>
+			<price>1250,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>195</tyre_width>
+			<profile>60</profile>
+			<speed_index>T</speed_index>
+			<speed>190</speed>
+			<load_index>99/97</load_index>
+			<season>зимняя</season>
+			<model>99/97T WV-03 OVATION</model>
+			<type>Л</type>
+		</Product>
+		<Product id="2026">
+			<name>Шина зимняя 205/65R16C 107/105R WV-03 OVATION</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это зимняя легковая шина с асимметричным протектором. Шины под брендом Ovation, на нескольких заводах, выпускает крупная китайская компания Ovation.,Ltd. В научно-исследовательском центре компании разрабатываются резиновые смеси и проектируются шины с высококлассными характеристиками. Продукция компании поставляется во многие страны мира.  Шина имеет высокое соотношение цена/качество. Шина соответствует всем европейским стандартам качества шин. Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5797.jpg</photo>
+			<price>1750,00</price>
+			<stock>1</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>205</tyre_width>
+			<profile>65</profile>
+			<speed_index>R</speed_index>
+			<speed>170</speed>
+			<load_index>107/105</load_index>
+			<load>975/925</load>
+			<season>зимняя</season>
+			<model>WV-03 OVATION</model>
+			<type>Л</type>
+		</Product>
+		<Product id="2047">
+			<name>Шина зимняя 205/65R17 96H W686 Ecovision</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это зимняя легковая шина с асимметричным протектором.  Шина имеет высокое соотношение цена/качество и соответствует всем европейским стандартам качества шин. Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_6091.jpg</photo>
+			<price>1600,00</price>
+			<stock>8</stock>
+			<active>true</active>
+			<tyre_diameter>17</tyre_diameter>
+			<tyre_width>205</tyre_width>
+			<profile>65</profile>
+			<speed_index>H</speed_index>
+			<speed>210</speed>
+			<load_index>96</load_index>
+			<load>710</load>
+			<season>зимняя</season>
+			<model>W686 Ecovision</model>
+			<type>Л</type>
+		</Product>
+		<Product id="2063">
+			<name>Шина летняя 175/70R13 82H Росава Itegro</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7388.jpg</photo>
+			<price>610,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>13</tyre_diameter>
+			<tyre_width>175</tyre_width>
+			<profile>70</profile>
+			<speed_index>H</speed_index>
+			<speed>210</speed>
+			<load_index>82</load_index>
+			<load>475</load>
+			<season>летняя</season>
+			<brand>Росава</brand>
+			<model>Itegro</model>
+			<type>Л</type>
+		</Product>
+		<Product id="2074">
+			<name>Шина летняя 205/60R16 92H Hankook Ventus Prime 3 K125</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7412.jpg</photo>
+			<price>2158,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>205</tyre_width>
+			<profile>60</profile>
+			<speed_index>H</speed_index>
+			<speed>210</speed>
+			<load_index>92</load_index>
+			<load>630</load>
+			<season>летняя</season>
+			<brand>Hankook</brand>
+			<model>Ventus Prime 3 K125</model>
+			<type>Л</type>
+		</Product>
+		<Product id="2100">
+			<name>Шина зимняя 245/70R17 110T W686 Ecovision</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это зимняя легковая шина с асимметричным протектором.  Шина имеет высокое соотношение цена/качество и соответствует всем европейским стандартам качества шин. Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_6091.jpg</photo>
+			<price>1800,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>17</tyre_diameter>
+			<tyre_width>245</tyre_width>
+			<profile>70</profile>
+			<speed_index>T</speed_index>
+			<speed>190</speed>
+			<load_index>110</load_index>
+			<load>1 060</load>
+			<season>зимняя</season>
+			<model>W686 Ecovision</model>
+			<type>Л</type>
+		</Product>
+		<Product id="2108">
+			<name>Шина  205/70R16 97T Алтай Nortec WT 580 АШК</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7384.jpg</photo>
+			<price>1800,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>205</tyre_width>
+			<profile>70</profile>
+			<speed_index>T</speed_index>
+			<speed>190</speed>
+			<load_index>97</load_index>
+			<load>730</load>
+			<brand>Алтай</brand>
+			<model>Nortec WT 580 АШК</model>
+			<type>Л</type>
+		</Product>
+		<Product id="2157">
+			<name>Диск Kapitan 6x15 PCD 4x114,3, ET45, DIA67,1</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5867.jpg</photo>
+			<price>650,00</price>
+			<stock>348</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6</disc_width>
+			<disc_diameter>15</disc_diameter>
+			<mount>4x114,3</mount>
+			<dia>DIA67,1</dia>
+			<et>ET45</et>
+		</Product>
+		<Product id="2207">
+			<name>Диск Kapitan 5,5x14 PCD 4x108, ET24, DIA65,1</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5861.jpg</photo>
+			<price>575,00</price>
+			<stock>275</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>5,5</disc_width>
+			<disc_diameter>14</disc_diameter>
+			<mount>4x108</mount>
+			<dia>DIA65,1</dia>
+			<et>ET24</et>
+		</Product>
+		<Product id="2249">
+			<name>Шина грузовая 295/75R22,5 146/143L Fesite HF111  (рулевая)</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это грузовая шина для рулевой оси.  Шина имеет высокое соотношение цена/качество и соответствует всем европейским стандартам качества шин. Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_6046.jpg</photo>
+			<price>4900,00</price>
+			<stock>5</stock>
+			<active>true</active>
+			<tyre_diameter>22,5</tyre_diameter>
+			<tyre_width>295</tyre_width>
+			<profile>75</profile>
+			<speed_index>L</speed_index>
+			<speed>120</speed>
+			<load_index>146/143</load_index>
+			<load>3 000/2 725</load>
+			<model>Fesite HF111</model>
+			<type>В</type>
+		</Product>
+		<Product id="2258">
+			<name>Шина летняя 195/50R16 84V Firemax FM601</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7508.jpg</photo>
+			<price>1144,80</price>
+			<stock>1</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>195</tyre_width>
+			<profile>50</profile>
+			<speed_index>V</speed_index>
+			<speed>240</speed>
+			<load_index>84</load_index>
+			<load>500</load>
+			<season>летняя</season>
+			<brand>Firemax</brand>
+			<model>FM601</model>
+			<type>Л</type>
+		</Product>
+		<Product id="2272">
+			<name>Шина летняя 215/70R15 98H Firemax FM316</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7518.jpg</photo>
+			<price>1187,20</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>15</tyre_diameter>
+			<tyre_width>215</tyre_width>
+			<profile>70</profile>
+			<speed_index>H</speed_index>
+			<speed>210</speed>
+			<load_index>98</load_index>
+			<load>750</load>
+			<season>летняя</season>
+			<brand>Firemax</brand>
+			<model>FM316</model>
+			<type>Л</type>
+		</Product>
+		<Product id="2274">
+			<name>Шина летняя 205/55R16 94V Firemax FM316</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7518.jpg</photo>
+			<price>1000,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>205</tyre_width>
+			<profile>55</profile>
+			<speed_index>V</speed_index>
+			<speed>240</speed>
+			<load_index>94</load_index>
+			<load>670</load>
+			<season>летняя</season>
+			<brand>Firemax</brand>
+			<model>FM316</model>
+			<type>Л</type>
+		</Product>
+		<Product id="2283">
+			<name>Шина летняя 235/65R17 108H Firemax FM518</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7534.jpg</photo>
+			<price>1590,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>17</tyre_diameter>
+			<tyre_width>235</tyre_width>
+			<profile>65</profile>
+			<speed_index>H</speed_index>
+			<speed>210</speed>
+			<load_index>108</load_index>
+			<load>1 000</load>
+			<season>летняя</season>
+			<brand>Firemax</brand>
+			<model>FM518</model>
+			<type>Л</type>
+		</Product>
+		<Product id="2299">
+			<name>Шина летняя 205/65R16C 107/105R Firemax FM916</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7573.jpg</photo>
+			<price>1250,80</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>205</tyre_width>
+			<profile>65</profile>
+			<speed_index>R</speed_index>
+			<speed>170</speed>
+			<load_index>107/105</load_index>
+			<load>975/925</load>
+			<season>летняя</season>
+			<brand>Firemax</brand>
+			<model>FM916</model>
+			<type>Л</type>
+		</Product>
+		<Product id="2649">
+			<name>Шина зимняя 275/65R17 115R Bridgestone Blizzak DM-V2</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это зимние шины для для внедорожника/кроссовера. Шины имеют направленный протектор. Производитель шин – крупная японская компания Bridgestone, один из лидеров мирового рынка шин. Шина имеет прекрасные характеристики сцепления и торможения в любую зимнюю погоду.  Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5955.jpg</photo>
+			<price>3820,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>17</tyre_diameter>
+			<tyre_width>275</tyre_width>
+			<profile>65</profile>
+			<speed_index>R</speed_index>
+			<speed>170</speed>
+			<load_index>115</load_index>
+			<load>1 215</load>
+			<season>зимняя</season>
+			<brand>Bridgestone</brand>
+			<model>Blizzak DM-V2</model>
+			<type>Л</type>
+		</Product>
+		<Product id="2883">
+			<name>Диск Kapitan 5,5x14 PCD 4x108, ET47, DIA63,3</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5872.jpg</photo>
+			<price>550,00</price>
+			<stock>108</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>5,5</disc_width>
+			<disc_diameter>14</disc_diameter>
+			<mount>4x108</mount>
+			<dia>DIA63,3</dia>
+			<et>ET47</et>
+		</Product>
+		<Product id="3623">
+			<name>Шина зимняя 205/60R16 92S Bridgestone Blizzak VRX</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это зимняя легковая шина c асимметричным протектором. Производитель шин – крупная японская компания Bridgestone, один из лидеров мирового рынка шин Blizzak VRX Bridgestone – хорошая нешипованной зимняя резина. Bridgestone Blizzak VRX подойдут как городскому седану, так и автомобилям класса «премиум». Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5905.jpg</photo>
+			<price>2450,00</price>
+			<stock>13</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>205</tyre_width>
+			<profile>60</profile>
+			<speed_index>S</speed_index>
+			<speed>180</speed>
+			<load_index>92</load_index>
+			<load>630</load>
+			<season>зимняя</season>
+			<brand>Bridgestone</brand>
+			<model>Blizzak VRX</model>
+			<type>Л</type>
+		</Product>
+		<Product id="3748">
+			<name>Диск Kapitan 6x15 PCD 4x108, ET18, DIA65,1</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7670.jpg</photo>
+			<price>900,00</price>
+			<stock>1</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>6</disc_width>
+			<disc_diameter>15</disc_diameter>
+			<mount>4x108</mount>
+			<dia>DIA65,1</dia>
+			<et>ET18</et>
+		</Product>
+		<Product id="4120">
+			<name>Шина летняя 185/70R14 88T Кама Breeze НК-132</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это летняя легковая шина c направленным протектором.  Основными преимуществами шины являются:
+• шина обеспечивает надежную управляемость при различной погоде;
+• низкий уровень шума;
+• высокая износостойкость.
+ Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5903.jpg</photo>
+			<price>770,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>14</tyre_diameter>
+			<tyre_width>185</tyre_width>
+			<profile>70</profile>
+			<speed_index>T</speed_index>
+			<speed>190</speed>
+			<load_index>88</load_index>
+			<load>560</load>
+			<season>летняя</season>
+			<brand>Кама</brand>
+			<model>Breeze НК-132</model>
+			<type>Л</type>
+		</Product>
+		<Product id="8632">
+			<name>Шина летняя 225/55R17 97V Bridgestone Ecopia EP300</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7467.jpg</photo>
+			<price>2900,00</price>
+			<stock>10</stock>
+			<active>true</active>
+			<tyre_diameter>17</tyre_diameter>
+			<tyre_width>225</tyre_width>
+			<profile>55</profile>
+			<speed_index>V</speed_index>
+			<speed>240</speed>
+			<load_index>97</load_index>
+			<load>730</load>
+			<season>летняя</season>
+			<brand>Bridgestone</brand>
+			<model>Ecopia EP300</model>
+			<type>Л</type>
+		</Product>
+		<Product id="9007">
+			<name>Шина зимняя 215/55R17 98R Kumho KW31</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это зимняя легковая шина с асимметричным протектором. Производитель шины южнокорейская компания Kumho – одна из 10 крупнейших шинных компаний в мире. Основными преимуществами шины являются: хорошие сцепные характеристики на снегу и отличная управляемость на любой зимней дороге. Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5792.jpg</photo>
+			<price>2288,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>17</tyre_diameter>
+			<tyre_width>215</tyre_width>
+			<profile>55</profile>
+			<speed_index>R</speed_index>
+			<speed>170</speed>
+			<load_index>98</load_index>
+			<load>750</load>
+			<season>зимняя</season>
+			<brand>Kumho</brand>
+			<model>KW31</model>
+			<type>Л</type>
+		</Product>
+		<Product id="9063">
+			<name>Шина зимняя 215/60R17 96R Kumho KW31</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это зимняя легковая шина с асимметричным протектором. Производитель шины южнокорейская компания Kumho – одна из 10 крупнейших шинных компаний в мире. Основными преимуществами шины являются: хорошие сцепные характеристики на снегу и отличная управляемость на любой зимней дороге. Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5792.jpg</photo>
+			<price>2614,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>17</tyre_diameter>
+			<tyre_width>215</tyre_width>
+			<profile>60</profile>
+			<speed_index>R</speed_index>
+			<speed>170</speed>
+			<load_index>96</load_index>
+			<load>710</load>
+			<season>зимняя</season>
+			<brand>Kumho</brand>
+			<model>KW31</model>
+			<type>Л</type>
+		</Product>
+		<Product id="9332">
+			<name>Шина зимняя 265/65R17 112T Firemax FM806</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это зимняя легковая шина c направленным протектором.  Шина имеет высокое соотношение цена/качество и соответствует всем европейским стандартам качества шин. Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5916.jpg</photo>
+			<price>2050,00</price>
+			<stock>20</stock>
+			<active>true</active>
+			<tyre_diameter>17</tyre_diameter>
+			<tyre_width>265</tyre_width>
+			<profile>65</profile>
+			<speed_index>T</speed_index>
+			<speed>190</speed>
+			<load_index>112</load_index>
+			<load>1 120</load>
+			<season>зимняя</season>
+			<brand>Firemax</brand>
+			<model>FM806</model>
+			<type>Л</type>
+		</Product>
+		<Product id="9761">
+			<name>Шина всесезонная 245/75R16 120/116S RS23 Habilead</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7498.jpg</photo>
+			<price>1800,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>245</tyre_width>
+			<profile>75</profile>
+			<speed_index>S</speed_index>
+			<speed>180</speed>
+			<load_index>120/116</load_index>
+			<load>1 400/1 250</load>
+			<season>всесезонная</season>
+			<model>RS23 Habilead</model>
+			<type>Л</type>
+		</Product>
+		<Product id="14674">
+			<name>Шина летняя 205/55R16 94W Bridgestone Turanza T001</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это летняя премиальная шина для легковых автомобилей с асиметричным протектором. Производитель шин – крупная японская компания Bridgestone, один из лидеров мирового рынка шин. Шина отлично сохраняет высокие сцепные характеристики, поперечную устойчивость и устойчивость к аквапланированию на высокой скорости Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_6080.jpg</photo>
+			<price>1443,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>205</tyre_width>
+			<profile>55</profile>
+			<speed_index>W</speed_index>
+			<speed>270</speed>
+			<load_index>94</load_index>
+			<load>670</load>
+			<season>летняя</season>
+			<brand>Bridgestone</brand>
+			<model>Turanza T001</model>
+			<type>Л</type>
+		</Product>
+		<Product id="15466">
+			<name>Шина зимняя 205/70R15 96S Bridgestone Blizzak DM-V2</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это зимние шины для для внедорожника/кроссовера. Шины имеют направленный протектор. Производитель шин – крупная японская компания Bridgestone, один из лидеров мирового рынка шин. Шина имеет прекрасные характеристики сцепления и торможения в любую зимнюю погоду.  Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5955.jpg</photo>
+			<price>2268,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>15</tyre_diameter>
+			<tyre_width>205</tyre_width>
+			<profile>70</profile>
+			<speed_index>S</speed_index>
+			<speed>180</speed>
+			<load_index>96</load_index>
+			<load>710</load>
+			<season>зимняя</season>
+			<brand>Bridgestone</brand>
+			<model>Blizzak DM-V2</model>
+			<type>Л</type>
+		</Product>
+		<Product id="15803">
+			<name>Диск Kapitan 7x17 PCD 5x108, ET50, DIA63,3</name>
+			<category id="2">Диски</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>VED_5864 (1).jpg</photo>
+			<price>1300,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<brand>Kapitan</brand>
+			<disc_width>7</disc_width>
+			<disc_diameter>17</disc_diameter>
+			<mount>5x108</mount>
+			<dia>DIA63,3</dia>
+			<et>ET50</et>
+		</Product>
+		<Product id="15962">
+			<name>Шина летняя 215/70R16 100H RS21 Habilead</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7575.jpg</photo>
+			<price>1480,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>215</tyre_width>
+			<profile>70</profile>
+			<speed_index>H</speed_index>
+			<speed>210</speed>
+			<load_index>100</load_index>
+			<load>800</load>
+			<season>летняя</season>
+			<model>RS21 Habilead</model>
+			<type>Л</type>
+		</Product>
+		<Product id="16217">
+			<name>Шина зимняя 215/65R16 98S Bridgestone Blizzak DM-V2</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это зимние шины для для внедорожника/кроссовера. Шины имеют направленный протектор. Производитель шин – крупная японская компания Bridgestone, один из лидеров мирового рынка шин. Шина имеет прекрасные характеристики сцепления и торможения в любую зимнюю погоду.  Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5955.jpg</photo>
+			<price>2193,00</price>
+			<stock>4</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>215</tyre_width>
+			<profile>65</profile>
+			<speed_index>S</speed_index>
+			<speed>180</speed>
+			<load_index>98</load_index>
+			<load>750</load>
+			<season>зимняя</season>
+			<brand>Bridgestone</brand>
+			<model>Blizzak DM-V2</model>
+			<type>Л</type>
+		</Product>
+		<Product id="16442">
+			<name>Шина грузовая 315/80R22,5 156/150M Longmarch LM216 (ведущая)</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это грузовая шина  для ведущей оси.  Износостойкость шины сравнима с износостойкостью шин премиальных брендов. Шина соответствует всем европейским стандартам качества шин. Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5942.jpg</photo>
+			<price>6200,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>22,5</tyre_diameter>
+			<tyre_width>315</tyre_width>
+			<profile>80</profile>
+			<speed_index>M</speed_index>
+			<speed>130</speed>
+			<load_index>156/150</load_index>
+			<load>4 000/3 350</load>
+			<brand>Longmarch</brand>
+			<model>LM216</model>
+			<type>В</type>
+		</Product>
+		<Product id="16646">
+			<name>Шина зимняя 195/65R15 95R Nokian NORDMAN RS2</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7345.jpg</photo>
+			<price>1300,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>15</tyre_diameter>
+			<tyre_width>195</tyre_width>
+			<profile>65</profile>
+			<speed_index>R</speed_index>
+			<speed>170</speed>
+			<load_index>95</load_index>
+			<load>690</load>
+			<season>зимняя</season>
+			<brand>Nokian</brand>
+			<model>NORDMAN RS2</model>
+			<type>Л</type>
+		</Product>
+		<Product id="16978">
+			<name>Шина зимняя 215/65R16 98H RW501 Habilead</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это зимняя легковая шина c асимметричным протектором. Производитель шин китайская компания Habilead выкупившая технологии японской компании Bridgestone. Рисунок протектора шины такой же как у шины Bridgestone Blizzak DM-V1. Шина имеет высокое соотношение цена/качество и соответствует всем европейским стандартам качества шин. Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5908.jpg</photo>
+			<price>1322,00</price>
+			<stock>510</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>215</tyre_width>
+			<profile>65</profile>
+			<speed_index>H</speed_index>
+			<speed>210</speed>
+			<load_index>98</load_index>
+			<load>750</load>
+			<season>зимняя</season>
+			<model>RW501 Habilead</model>
+			<type>Л</type>
+		</Product>
+		<Product id="17016">
+			<name>Шина зимняя 195/70R15C 104/102R RW501 Habilead</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это зимняя легковая шина c асимметричным протектором. Производитель шин китайская компания Habilead выкупившая технологии японской компании Bridgestone. Рисунок протектора шины такой же как у шины Bridgestone Blizzak DM-V1. Шина имеет высокое соотношение цена/качество и соответствует всем европейским стандартам качества шин. Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5908.jpg</photo>
+			<price>1375,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>15</tyre_diameter>
+			<tyre_width>195</tyre_width>
+			<profile>70</profile>
+			<speed_index>R</speed_index>
+			<speed>170</speed>
+			<load_index>104/102</load_index>
+			<load>900/850</load>
+			<season>зимняя</season>
+			<model>RW501 Habilead</model>
+			<type>Л</type>
+		</Product>
+		<Product id="17746">
+			<name>Шина летняя 225/55R18 98V Bridgestone Alenza 001</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7502.jpg</photo>
+			<price>3289,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>18</tyre_diameter>
+			<tyre_width>225</tyre_width>
+			<profile>55</profile>
+			<speed_index>V</speed_index>
+			<speed>240</speed>
+			<load_index>98</load_index>
+			<load>750</load>
+			<season>летняя</season>
+			<brand>Bridgestone</brand>
+			<model>Alenza 001</model>
+			<type>Л</type>
+		</Product>
+		<Product id="17807">
+			<name>Шина зимняя 235/60R16 100S Bridgestone Blizzak DM-V2</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это зимние шины для для внедорожника/кроссовера. Шины имеют направленный протектор. Производитель шин – крупная японская компания Bridgestone, один из лидеров мирового рынка шин. Шина имеет прекрасные характеристики сцепления и торможения в любую зимнюю погоду.  Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5955.jpg</photo>
+			<price>3667,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>235</tyre_width>
+			<profile>60</profile>
+			<speed_index>S</speed_index>
+			<speed>180</speed>
+			<load_index>100</load_index>
+			<load>800</load>
+			<season>зимняя</season>
+			<brand>Bridgestone</brand>
+			<model>Blizzak DM-V2</model>
+			<type>Л</type>
+		</Product>
+		<Product id="17895">
+			<name>Шина летняя 225/65R17 102H Hankook Dynapro HP2 RA33</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7567.jpg</photo>
+			<price>2380,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>17</tyre_diameter>
+			<tyre_width>225</tyre_width>
+			<profile>65</profile>
+			<speed_index>H</speed_index>
+			<speed>210</speed>
+			<load_index>102</load_index>
+			<load>850</load>
+			<season>летняя</season>
+			<brand>Hankook</brand>
+			<model>Dynapro HP2 RA33</model>
+			<type>Л</type>
+		</Product>
+		<Product id="17966">
+			<name>Шина грузовая 315/60R22,5 152/148M Longmarch Roadlux R117 (рулевая)</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7904.jpg</photo>
+			<price>6600,00</price>
+			<stock>14</stock>
+			<active>true</active>
+			<tyre_diameter>22,5</tyre_diameter>
+			<tyre_width>315</tyre_width>
+			<profile>60</profile>
+			<speed_index>M</speed_index>
+			<speed>130</speed>
+			<load_index>152/148</load_index>
+			<load>3 550/3 150</load>
+			<brand>Longmarch</brand>
+			<model>Roadlux R117</model>
+			<type>В</type>
+		</Product>
+		<Product id="18486">
+			<name>Шина летняя 225/70R16 103H Kumho KL33 TL</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это премиальная высококлассная всесезонная шина для внедорожников. Производитель шины южнокорейская компания Kumho – одна из 10 крупнейших шинных компаний в мире. Основными преимуществами шины являются:
+• Сниженный уровень шума и превосходный комфорт
+• Отлично сбалансированные харатеристики на снегу и мокром покрытии
+ Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5806.jpg</photo>
+			<price>1924,00</price>
+			<stock>4</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>225</tyre_width>
+			<profile>70</profile>
+			<speed_index>H</speed_index>
+			<speed>210</speed>
+			<load_index>103</load_index>
+			<load>875</load>
+			<season>летняя</season>
+			<brand>Kumho</brand>
+			<model>KL33 TL</model>
+			<type>Л</type>
+		</Product>
+		<Product id="18493">
+			<name>Шина летняя 235/70R16 106T Bridgestone Dueler A/T 001</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7512.jpg</photo>
+			<price>2750,00</price>
+			<stock>4</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>235</tyre_width>
+			<profile>70</profile>
+			<speed_index>T</speed_index>
+			<speed>190</speed>
+			<load_index>106</load_index>
+			<load>950</load>
+			<season>летняя</season>
+			<brand>Bridgestone</brand>
+			<model>Dueler A/T 001</model>
+			<type>Л</type>
+		</Product>
+		<Product id="18508">
+			<name>Шина грузовая 225/75R17,5 129/127L Doublestar DSR266 (116)  (рулевая)</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это грузовая шина для рулевой оси.  По характеристикам шина сравнима с шинами премиальных брендов. Шина соответствует всем европейским стандартам качества шин. Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_6063.jpg</photo>
+			<price>3300,00</price>
+			<stock>10</stock>
+			<active>true</active>
+			<tyre_diameter>17,5</tyre_diameter>
+			<tyre_width>225</tyre_width>
+			<profile>75</profile>
+			<speed_index>L</speed_index>
+			<speed>120</speed>
+			<load_index>129/127</load_index>
+			<load>1 850/1 750</load>
+			<brand>Doublestar</brand>
+			<model>DSR266 (116)</model>
+			<type>В</type>
+		</Product>
+		<Product id="18560">
+			<name>Шина летняя 225/70R15C 112/110R Nexen ROADIAN CT8 Roadstone</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это шина для коммерческого автотранспорта (усиленная грузоподъемность). Протектор шины имеет асимметричный рисунок. Производитель шины южнокорейская компания Nexen. Компания Nexen входит в ряд крупнейших азиатских компаний. Компания выпускает шины высочайшего качества, не уступающее по эксплуатационным характеристикам шинам более известных компаний  Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5773.jpg</photo>
+			<price>2200,00</price>
+			<stock>1</stock>
+			<active>true</active>
+			<tyre_diameter>15</tyre_diameter>
+			<tyre_width>225</tyre_width>
+			<profile>70</profile>
+			<speed_index>R</speed_index>
+			<speed>170</speed>
+			<load_index>112/110</load_index>
+			<load>1 120/1 060</load>
+			<season>летняя</season>
+			<brand>Nexen</brand>
+			<model>ROADIAN CT8 Roadstone</model>
+			<type>Л</type>
+		</Product>
+		<Product id="18991">
+			<name>Шина зимняя 215/60R16 99H RW501 Habilead</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это зимняя легковая шина c асимметричным протектором. Производитель шин китайская компания Habilead выкупившая технологии японской компании Bridgestone. Рисунок протектора шины такой же как у шины Bridgestone Blizzak DM-V1. Шина имеет высокое соотношение цена/качество и соответствует всем европейским стандартам качества шин. Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5908.jpg</photo>
+			<price>1350,00</price>
+			<stock>222</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>215</tyre_width>
+			<profile>60</profile>
+			<speed_index>H</speed_index>
+			<speed>210</speed>
+			<load_index>99</load_index>
+			<load>775</load>
+			<season>зимняя</season>
+			<model>RW501 Habilead</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20419">
+			<name>Шина летняя 235/55R20 102V Bridgestone Alenza 001</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7502.jpg</photo>
+			<price/>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>20</tyre_diameter>
+			<tyre_width>235</tyre_width>
+			<profile>55</profile>
+			<speed_index>V</speed_index>
+			<speed>240</speed>
+			<load_index>102</load_index>
+			<load>850</load>
+			<season>летняя</season>
+			<brand>Bridgestone</brand>
+			<model>Alenza 001</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20437">
+			<name>Шина грузовая 315/80R22,5 157/154L JOYALL A876 (рулевая)</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7971.jpg</photo>
+			<price>6600,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>22,5</tyre_diameter>
+			<tyre_width>315</tyre_width>
+			<profile>80</profile>
+			<speed_index>L</speed_index>
+			<speed>120</speed>
+			<load_index>157/154</load_index>
+			<load>4 125/3 750</load>
+			<model>JOYALL A876</model>
+			<type>В</type>
+		</Product>
+		<Product id="20447">
+			<name>Шина летняя 195/70R15C 104/102R Strial CARGO Riken</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7326.jpg</photo>
+			<price>1811,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>15</tyre_diameter>
+			<tyre_width>195</tyre_width>
+			<profile>70</profile>
+			<speed_index>R</speed_index>
+			<speed>170</speed>
+			<load_index>104/102</load_index>
+			<load>900/850</load>
+			<season>летняя</season>
+			<brand>Strial</brand>
+			<model>CARGO Riken</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20448">
+			<name>Шина летняя 225/55R17 101W Strial ULTRA HP Riken</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7340.jpg</photo>
+			<price>1884,00</price>
+			<stock>2</stock>
+			<active>true</active>
+			<tyre_diameter>17</tyre_diameter>
+			<tyre_width>225</tyre_width>
+			<profile>55</profile>
+			<speed_index>W</speed_index>
+			<speed>270</speed>
+			<load_index>101</load_index>
+			<load>825</load>
+			<season>летняя</season>
+			<brand>Strial</brand>
+			<model>ULTRA HP Riken</model>
+			<type>Л</type>
+		</Product>
+		<Product id="19970">
+			<name>Шина летняя 275/55R20 117W RS26 Habilead</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7544.jpg</photo>
+			<price>3000,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>20</tyre_diameter>
+			<tyre_width>275</tyre_width>
+			<profile>55</profile>
+			<speed_index>W</speed_index>
+			<speed>270</speed>
+			<load_index>117</load_index>
+			<load>1 285</load>
+			<season>летняя</season>
+			<model>RS26 Habilead</model>
+			<type>Л</type>
+		</Product>
+		<Product id="19974">
+			<name>Шина летняя 205/70R15C 106/104R RS01 Habilead</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это летняя легковая резина повышенной грузоподъемности для коммерческого автотранспорта С (Commercial).  Производитель шин китайская компания Habilead выкупившая технологии японской компании Bridgestone.  Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5949.jpg</photo>
+			<price>1293,20</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>15</tyre_diameter>
+			<tyre_width>205</tyre_width>
+			<profile>70</profile>
+			<speed_index>R</speed_index>
+			<speed>170</speed>
+			<load_index>106/104</load_index>
+			<load>950/900</load>
+			<season>летняя</season>
+			<model>RS01 Habilead</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20642">
+			<name>Шина зимняя 185/60R14 82T Росава Snowgard</name>
+			<category id="1">Шины</category>
+			<description lang="ru">— это зимняя легковая шина с красивым направленным протектором. Производитель шин — украинская компания ROSAVA. Предприятие находится в городе Белая Церковь киевской области. История компании начинается в 1972 году. Компания производит шины для всех видов транспорта. Последние десять лет предприятие динамично развивает свои производственные мощности, обновляя их новым оборудованием и запуская производство новых моделей и размеров шин. Основными преимуществами шины являются:
+• За невысокую стоимость шина является качественным высокотехнологичным продуктом.
+• Протектор шины имеет интересный дизайн и реализован с использованием технологии 3D GRIPPING, что обеспечивает хорошее сцепление шины с дорогой при разном уровне износа. 
+• Прочный компаунд из которого изготовлена шина обеспечивает низкое сопротивление качению и долгий, равномерный износ шины.
+
+ Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>WYU_7299.jpg</photo>
+			<price>670,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>14</tyre_diameter>
+			<tyre_width>185</tyre_width>
+			<profile>60</profile>
+			<speed_index>T</speed_index>
+			<speed>190</speed>
+			<load_index>82</load_index>
+			<load>475</load>
+			<season>зимняя</season>
+			<brand>Росава</brand>
+			<model>Snowgard</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20647">
+			<name>Шина зимняя 205/55R16 91T Росава Premiorri ViaMaggiore</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7370.jpg</photo>
+			<price>900,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>205</tyre_width>
+			<profile>55</profile>
+			<speed_index>T</speed_index>
+			<speed>190</speed>
+			<load_index>91</load_index>
+			<load>615</load>
+			<season>зимняя</season>
+			<brand>Росава</brand>
+			<model>Premiorri ViaMaggiore</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20659">
+			<name>Шина зимняя 205/65R16 95H Strial Winter</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7326.jpg</photo>
+			<price>1646,00</price>
+			<stock>2</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>205</tyre_width>
+			<profile>65</profile>
+			<speed_index>H</speed_index>
+			<speed>210</speed>
+			<load_index>95</load_index>
+			<load>690</load>
+			<season>зимняя</season>
+			<brand>Strial</brand>
+			<model>Winter</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20661">
+			<name>Шина зимняя 235/45R18 98V Strial Winter</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7326.jpg</photo>
+			<price>2500,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>18</tyre_diameter>
+			<tyre_width>235</tyre_width>
+			<profile>45</profile>
+			<speed_index>V</speed_index>
+			<speed>240</speed>
+			<load_index>98</load_index>
+			<load>750</load>
+			<season>зимняя</season>
+			<brand>Strial</brand>
+			<model>Winter</model>
+			<type>Л</type>
+		</Product>
+		<Product id="19548">
+			<name>Шина зимняя 185/55R15 82H Farroad FRD76</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7422.jpg</photo>
+			<price>900,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>15</tyre_diameter>
+			<tyre_width>185</tyre_width>
+			<profile>55</profile>
+			<speed_index>H</speed_index>
+			<speed>210</speed>
+			<load_index>82</load_index>
+			<load>475</load>
+			<season>зимняя</season>
+			<brand>Farroad</brand>
+			<model>FRD76</model>
+			<type>Л</type>
+		</Product>
+		<Product id="19587">
+			<name>Шина зимняя 265/50R20 111H AW33 Kapsen</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7400.jpg</photo>
+			<price>2500,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>20</tyre_diameter>
+			<tyre_width>265</tyre_width>
+			<profile>50</profile>
+			<speed_index>H</speed_index>
+			<speed>210</speed>
+			<load_index>111</load_index>
+			<load>1 090</load>
+			<season>зимняя</season>
+			<model>AW33 Kapsen</model>
+			<type>Л</type>
+		</Product>
+		<Product id="19620">
+			<name>Шина зимняя 195/60R16C 99/97T Farroad 99/97T FRD75</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7449.jpg</photo>
+			<price>1300,00</price>
+			<stock>1</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>195</tyre_width>
+			<profile>60</profile>
+			<speed_index>T</speed_index>
+			<speed>190</speed>
+			<load_index>99/97</load_index>
+			<season>зимняя</season>
+			<brand>Farroad</brand>
+			<model>99/97T FRD75</model>
+			<type>Л</type>
+		</Product>
+		<Product id="19623">
+			<name>Шина зимняя 195/65R15 95T Farroad Arctic STU99</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7439.jpg</photo>
+			<price>1020,00</price>
+			<stock>34</stock>
+			<active>true</active>
+			<tyre_diameter>15</tyre_diameter>
+			<tyre_width>195</tyre_width>
+			<profile>65</profile>
+			<speed_index>T</speed_index>
+			<speed>190</speed>
+			<load_index>95</load_index>
+			<load>690</load>
+			<season>зимняя</season>
+			<brand>Farroad</brand>
+			<model>Arctic STU99</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20066">
+			<name>Шина грузовая 295/80R22,5 152/148M Doupro ST939  (рулевая)</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_8115.jpg</photo>
+			<price>4300,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>22,5</tyre_diameter>
+			<tyre_width>295</tyre_width>
+			<profile>80</profile>
+			<speed_index>M</speed_index>
+			<speed>130</speed>
+			<load_index>152/148</load_index>
+			<load>3 550/3 150</load>
+			<model>Doupro ST939</model>
+			<type>В</type>
+		</Product>
+		<Product id="20082">
+			<name>Шина летняя 205/55R17 95W Firemax FM601</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7508.jpg</photo>
+			<price>1398,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>17</tyre_diameter>
+			<tyre_width>205</tyre_width>
+			<profile>55</profile>
+			<speed_index>W</speed_index>
+			<speed>270</speed>
+			<load_index>95</load_index>
+			<load>690</load>
+			<season>летняя</season>
+			<brand>Firemax</brand>
+			<model>FM601</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20118">
+			<name>Шина летняя 235/75R15 105H Hankook Dynapro HP2 RA33</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7567.jpg</photo>
+			<price>2022,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>15</tyre_diameter>
+			<tyre_width>235</tyre_width>
+			<profile>75</profile>
+			<speed_index>H</speed_index>
+			<speed>210</speed>
+			<load_index>105</load_index>
+			<load>925</load>
+			<season>летняя</season>
+			<brand>Hankook</brand>
+			<model>Dynapro HP2 RA33</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20133">
+			<name>Шина летняя 255/50R19 103V Bridgestone Ecopia EP850</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7416.jpg</photo>
+			<price>4311,00</price>
+			<stock>4</stock>
+			<active>true</active>
+			<tyre_diameter>19</tyre_diameter>
+			<tyre_width>255</tyre_width>
+			<profile>50</profile>
+			<speed_index>V</speed_index>
+			<speed>240</speed>
+			<load_index>103</load_index>
+			<load>875</load>
+			<season>летняя</season>
+			<brand>Bridgestone</brand>
+			<model>Ecopia EP850</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20158">
+			<name>Шина летняя 235/55R17 99V Hankook Ventus S1 evo2 SUV K117A</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7408.jpg</photo>
+			<price>2591,00</price>
+			<stock>4</stock>
+			<active>true</active>
+			<tyre_diameter>17</tyre_diameter>
+			<tyre_width>235</tyre_width>
+			<profile>55</profile>
+			<speed_index>V</speed_index>
+			<speed>240</speed>
+			<load_index>99</load_index>
+			<load>775</load>
+			<season>летняя</season>
+			<brand>Hankook</brand>
+			<model>Ventus S1 evo2 SUV K117A</model>
+			<type>Л</type>
+		</Product>
+		<Product id="20192">
+			<name>Шина летняя 225/55R17 101W Strial ULTRA HP</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7326.jpg</photo>
+			<price>1884,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>17</tyre_diameter>
+			<tyre_width>225</tyre_width>
+			<profile>55</profile>
+			<speed_index>W</speed_index>
+			<speed>270</speed>
+			<load_index>101</load_index>
+			<load>825</load>
+			<season>летняя</season>
+			<brand>Strial</brand>
+			<model>ULTRA HP</model>
+			<type>Л</type>
+		</Product>
+		<Product id="18398">
+			<name>Шина летняя 215/60R16 95V Kumho PS31</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это летняя легковая шина класса UNP с красивым направленным протектором. Производитель шины южнокорейская компания Kumho – одна из 10 крупнейших шинных компаний в мире. Основными преимуществами шины являются:
+• Шина прошла гоночные испытания;
+• Высокая устойчивость аквапланированию
+• Стильный  рисунок протектора обеспечивает отличные сцепные характеристики.
+ Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5910.jpg</photo>
+			<price>1990,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>16</tyre_diameter>
+			<tyre_width>215</tyre_width>
+			<profile>60</profile>
+			<speed_index>V</speed_index>
+			<speed>240</speed>
+			<load_index>95</load_index>
+			<load>690</load>
+			<season>летняя</season>
+			<brand>Kumho</brand>
+			<model>PS31</model>
+			<type>Л</type>
+		</Product>
+		<Product id="18413">
+			<name>Шина летняя 195/50R15 82V Kumho HS51</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это летняя легковая шина с асимметричным протектором. Производитель шины южнокорейская компания Kumho – одна из 10 крупнейших шинных компаний в мире. Основными преимуществами шины являются:
+• Оптимальный баланс сцепных характеристик и износостойкости. 
+• Высокий уровень комфорта и безопасности.
+ Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5803.jpg</photo>
+			<price>1106,00</price>
+			<stock>0</stock>
+			<active>true</active>
+			<tyre_diameter>15</tyre_diameter>
+			<tyre_width>195</tyre_width>
+			<profile>50</profile>
+			<speed_index>V</speed_index>
+			<speed>240</speed>
+			<load_index>82</load_index>
+			<load>475</load>
+			<season>летняя</season>
+			<brand>Kumho</brand>
+			<model>HS51</model>
+			<type>Л</type>
+		</Product>
+		<Product id="18434">
+			<name>Шина летняя 205/70R15 96T Nexen N-BLUE HD PLUS</name>
+			<category id="1">Шины</category>
+			<description lang="ru">– это летняя легковая шина с асимметричным протектором. Производитель шины южнокорейская компания Nexen. Компания Nexen входит в ряд крупнейших азиатских компаний. Компания выпускает шины высочайшего качества, не уступающее по эксплуатационным характеристикам шинам более известных компаний Основными преимуществами шины являются:
+• Высокие сцепные характеристики и поперечная устойчивость при мканеврах;
+• Хорошая устойчивость аквапланированию
+• Низкое сопративление качению.
+ Заказывайте шины на сайте либо позвонив по телефону – наши менеджеры помогут подобрать нужные шины и диски.</description>
+			<description lang="ua"/>
+			<photo>VED_5915.jpg</photo>
+			<price>1550,00</price>
+			<stock>2</stock>
+			<active>true</active>
+			<tyre_diameter>15</tyre_diameter>
+			<tyre_width>205</tyre_width>
+			<profile>70</profile>
+			<speed_index>T</speed_index>
+			<speed>190</speed>
+			<load_index>96</load_index>
+			<load>710</load>
+			<season>летняя</season>
+			<brand>Nexen</brand>
+			<model>N-BLUE HD PLUS</model>
+			<type>Л</type>
+		</Product>
+		<Product id="18451">
+			<name>Шина летняя 285/60R18 116V Bridgestone Alenza 001</name>
+			<category id="1">Шины</category>
+			<description lang="ru"/>
+			<description lang="ua"/>
+			<photo>WYU_7502.jpg</photo>
+			<price>4651,00</price>
+			<stock>4</stock>
+			<active>true</active>
+			<tyre_diameter>18</tyre_diameter>
+			<tyre_width>285</tyre_width>
+			<profile>60</profile>
+			<speed_index>V</speed_index>
+			<speed>240</speed>
+			<load_index>116</load_index>
+			<load>1 250</load>
+			<season>летняя</season>
+			<brand>Bridgestone</brand>
+			<model>Alenza 001</model>
+			<type>Л</type>
+		</Product>
+	</Products>
+	<Brands>
+		<B id="1">Exide</B>
+		<B id="2">SADA</B>
+		<B id="3">TAB</B>
+		<B id="4">ACCUM GROUP</B>
+		<B id="5">AutoPart</B>
+		<B id="6">VARTA</B>
+		<B id="7">MIDAC</B>
+		<B id="8">Ultracell</B>
+		<B id="9">JP</B>
+		<B id="10">Кременчуг</B>
+		<B id="11">АвтоВАЗ</B>
+		<B id="12">ГАЗ</B>
+		<B id="13">КрКЗ</B>
+		<B id="14">Better</B>
+		<B id="15">Disla</B>
+		<B id="16">Kapitan</B>
+		<B id="17">MOMO</B>
+		<B id="18">RW</B>
+		<B id="19">WSP</B>
+		<B id="20">КиК</B>
+		<B id="21">Taihao</B>
+		<B id="22">Longmarch</B>
+		<B id="23">Doublestar</B>
+		<B id="24">Kumho</B>
+		<B id="25">Росава</B>
+		<B id="26">Cordiant</B>
+		<B id="27">Nexen</B>
+		<B id="28">Кама</B>
+		<B id="29">Bridgestone</B>
+		<B id="30">Farroad</B>
+		<B id="31">Hankook</B>
+		<B id="32">Nokian</B>
+		<B id="33">Haohua</B>
+		<B id="34">Strial</B>
+		<B id="35">Firemax</B>
+		<B id="36">Compasal</B>
+		<B id="37">ANTARES</B>
+		<B id="38">Premiorri</B>
+		<B id="39">Алтай</B>
+		<B id="40">Lassa</B>
+		<B id="41">Otani</B>
+		<B id="42">Sunny</B>
+		<B id="43">Michelin</B>
+		<B id="44">Roadshine</B>
+	</Brands>
+	<Store>
+		<S id="1">
+			<SR pid="20571">10</SR>
+			<SR pid="20258">8</SR>
+			<SR pid="20271">4</SR>
+			<SR pid="20288">8</SR>
+			<SR pid="20313">2</SR>
+			<SR pid="1484">336</SR>
+			<SR pid="1485">181</SR>
+			<SR pid="1486">202</SR>
+			<SR pid="1493">339</SR>
+			<SR pid="1494">321</SR>
+			<SR pid="1496">1</SR>
+			<SR pid="1499">121</SR>
+			<SR pid="1500">177</SR>
+			<SR pid="1505">160</SR>
+			<SR pid="1506">4</SR>
+			<SR pid="1507">107</SR>
+			<SR pid="1508">214</SR>
+			<SR pid="1511">132</SR>
+			<SR pid="1512">67</SR>
+			<SR pid="1517">81</SR>
+			<SR pid="1518">85</SR>
+			<SR pid="1534">103</SR>
+			<SR pid="1537">390</SR>
+			<SR pid="1539">32</SR>
+			<SR pid="1542">4</SR>
+			<SR pid="1544">22</SR>
+			<SR pid="1545">73</SR>
+			<SR pid="1546">43</SR>
+			<SR pid="1547">260</SR>
+			<SR pid="1549">200</SR>
+			<SR pid="1562">1</SR>
+			<SR pid="1567">2</SR>
+			<SR pid="1571">240</SR>
+			<SR pid="1578">126</SR>
+			<SR pid="1580">80</SR>
+			<SR pid="1581">10</SR>
+			<SR pid="1664">13</SR>
+			<SR pid="1667">62</SR>
+			<SR pid="1678">131</SR>
+			<SR pid="1679">69</SR>
+			<SR pid="1681">61</SR>
+			<SR pid="1688">1</SR>
+			<SR pid="1689">40</SR>
+			<SR pid="1693">11</SR>
+			<SR pid="1708">22</SR>
+			<SR pid="1746">7</SR>
+			<SR pid="1908">20</SR>
+			<SR pid="1978">1</SR>
+			<SR pid="2026">1</SR>
+			<SR pid="2047">8</SR>
+			<SR pid="2157">348</SR>
+			<SR pid="2207">275</SR>
+			<SR pid="2249">5</SR>
+			<SR pid="2258">1</SR>
+			<SR pid="2883">108</SR>
+			<SR pid="3623">13</SR>
+			<SR pid="3748">1</SR>
+			<SR pid="8632">10</SR>
+			<SR pid="9332">20</SR>
+			<SR pid="16217">4</SR>
+			<SR pid="16978">510</SR>
+			<SR pid="17966">14</SR>
+			<SR pid="18486">4</SR>
+			<SR pid="18493">4</SR>
+			<SR pid="18508">10</SR>
+			<SR pid="18560">1</SR>
+			<SR pid="18991">222</SR>
+			<SR pid="20448">2</SR>
+			<SR pid="20659">2</SR>
+			<SR pid="19620">1</SR>
+			<SR pid="19623">34</SR>
+			<SR pid="20133">4</SR>
+			<SR pid="20158">4</SR>
+			<SR pid="18434">2</SR>
+			<SR pid="18451">4</SR>
+		</S>
+	</Store>
+	<Prices>
+		<PR pid="19876">1200,00</PR>
+		<PR pid="19879">590,00</PR>
+		<PR pid="20514">2450,00</PR>
+		<PR pid="20571">1662,00</PR>
+		<PR pid="19354">1100,00</PR>
+		<PR pid="19367">1390,50</PR>
+		<PR pid="20199">3700,00</PR>
+		<PR pid="20200">3170,00</PR>
+		<PR pid="20212">1068,00</PR>
+		<PR pid="20248">7100,00</PR>
+		<PR pid="20255">2073,00</PR>
+		<PR pid="20258">1900,00</PR>
+		<PR pid="20264">1790,00</PR>
+		<PR pid="20271">2747,00</PR>
+		<PR pid="20280">2076,00</PR>
+		<PR pid="20288">1415,00</PR>
+		<PR pid="20313">2220,00</PR>
+		<PR pid="20356">890,00</PR>
+		<PR pid="20373">1230,00</PR>
+		<PR pid="1484">525,00</PR>
+		<PR pid="1485">625,00</PR>
+		<PR pid="1486">750,00</PR>
+		<PR pid="1493">550,00</PR>
+		<PR pid="1494">680,00</PR>
+		<PR pid="1496">675,00</PR>
+		<PR pid="1497">950,00</PR>
+		<PR pid="1498">2500,00</PR>
+		<PR pid="1499">2850,00</PR>
+		<PR pid="1500">2500,00</PR>
+		<PR pid="1505">650,00</PR>
+		<PR pid="1506">675,00</PR>
+		<PR pid="1507">725,00</PR>
+		<PR pid="1508">850,00</PR>
+		<PR pid="1509">725,00</PR>
+		<PR pid="1510">750,00</PR>
+		<PR pid="1511">1750,00</PR>
+		<PR pid="1512">2000,00</PR>
+		<PR pid="1517">1800,00</PR>
+		<PR pid="1518">1950,00</PR>
+		<PR pid="1519">1950,00</PR>
+		<PR pid="1529">1550,00</PR>
+		<PR pid="1534">800,00</PR>
+		<PR pid="1537">600,00</PR>
+		<PR pid="1538">750,00</PR>
+		<PR pid="1539">950,00</PR>
+		<PR pid="1540">575,00</PR>
+		<PR pid="1541">675,00</PR>
+		<PR pid="1542">770,00</PR>
+		<PR pid="1544">2900,00</PR>
+		<PR pid="1545">3150,00</PR>
+		<PR pid="1546">2800,00</PR>
+		<PR pid="1547">800,00</PR>
+		<PR pid="1549">800,00</PR>
+		<PR pid="1562">950,00</PR>
+		<PR pid="1566">850,00</PR>
+		<PR pid="1567">750,00</PR>
+		<PR pid="1571">650,00</PR>
+		<PR pid="1578">2150,00</PR>
+		<PR pid="1580">800,00</PR>
+		<PR pid="1581">1000,00</PR>
+		<PR pid="1594">2450,00</PR>
+		<PR pid="1664">2500,00</PR>
+		<PR pid="1667">2900,00</PR>
+		<PR pid="1678">1050,00</PR>
+		<PR pid="1679">1900,00</PR>
+		<PR pid="1681">2050,00</PR>
+		<PR pid="1688">750,00</PR>
+		<PR pid="1689">800,00</PR>
+		<PR pid="1693">2800,00</PR>
+		<PR pid="1708">5500,00</PR>
+		<PR pid="1743">6400,00</PR>
+		<PR pid="1745">5500,00</PR>
+		<PR pid="1746">5750,00</PR>
+		<PR pid="1866">4300,00</PR>
+		<PR pid="1908">3650,00</PR>
+		<PR pid="1929">3500,00</PR>
+		<PR pid="1962">2300,00</PR>
+		<PR pid="1978">1290,00</PR>
+		<PR pid="2025">1250,00</PR>
+		<PR pid="2026">1750,00</PR>
+		<PR pid="2047">1600,00</PR>
+		<PR pid="2063">610,00</PR>
+		<PR pid="2074">2158,00</PR>
+		<PR pid="2100">1800,00</PR>
+		<PR pid="2108">1800,00</PR>
+		<PR pid="2157">650,00</PR>
+		<PR pid="2207">575,00</PR>
+		<PR pid="2249">4900,00</PR>
+		<PR pid="2258">1144,80</PR>
+		<PR pid="2272">1187,20</PR>
+		<PR pid="2274">1000,00</PR>
+		<PR pid="2283">1590,00</PR>
+		<PR pid="2299">1250,80</PR>
+		<PR pid="2649">3820,00</PR>
+		<PR pid="2883">550,00</PR>
+		<PR pid="3623">2450,00</PR>
+		<PR pid="3748">900,00</PR>
+		<PR pid="4120">770,00</PR>
+		<PR pid="8632">2900,00</PR>
+		<PR pid="9007">2288,00</PR>
+		<PR pid="9063">2614,00</PR>
+		<PR pid="9332">2050,00</PR>
+		<PR pid="9761">1800,00</PR>
+		<PR pid="14674">1443,00</PR>
+		<PR pid="15466">2268,00</PR>
+		<PR pid="15803">1300,00</PR>
+		<PR pid="15962">1480,00</PR>
+		<PR pid="16217">2193,00</PR>
+		<PR pid="16442">6200,00</PR>
+		<PR pid="16646">1300,00</PR>
+		<PR pid="16978">1322,00</PR>
+		<PR pid="17016">1375,00</PR>
+		<PR pid="17746">3289,00</PR>
+		<PR pid="17807">3667,00</PR>
+		<PR pid="17895">2380,00</PR>
+		<PR pid="17966">6600,00</PR>
+		<PR pid="18486">1924,00</PR>
+		<PR pid="18493">2750,00</PR>
+		<PR pid="18508">3300,00</PR>
+		<PR pid="18560">2200,00</PR>
+		<PR pid="18991">1350,00</PR>
+		<PR pid="20437">6600,00</PR>
+		<PR pid="20447">1811,00</PR>
+		<PR pid="20448">1884,00</PR>
+		<PR pid="19970">3000,00</PR>
+		<PR pid="19974">1293,20</PR>
+		<PR pid="20642">670,00</PR>
+		<PR pid="20647">900,00</PR>
+		<PR pid="20659">1646,00</PR>
+		<PR pid="20661">2500,00</PR>
+		<PR pid="19548">900,00</PR>
+		<PR pid="19587">2500,00</PR>
+		<PR pid="19620">1300,00</PR>
+		<PR pid="19623">1020,00</PR>
+		<PR pid="20066">4300,00</PR>
+		<PR pid="20082">1398,00</PR>
+		<PR pid="20118">2022,00</PR>
+		<PR pid="20133">4311,00</PR>
+		<PR pid="20158">2591,00</PR>
+		<PR pid="20192">1884,00</PR>
+		<PR pid="18398">1990,00</PR>
+		<PR pid="18413">1106,00</PR>
+		<PR pid="18434">1550,00</PR>
+		<PR pid="18451">4651,00</PR>
+	</Prices>
+</Data>
